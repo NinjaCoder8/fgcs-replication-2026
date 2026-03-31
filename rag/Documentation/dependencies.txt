@@ -1,0 +1,38 @@
+# Dependencies for PhD-ai-agent Project
+# Install all dependencies with: pip install -r dependencies.txt
+
+# Core data manipulation and analysis
+pandas
+
+# Machine Learning and AI
+transformers
+torch
+sentence-transformers
+
+# Vector search and similarity
+faiss-cpu
+
+# LangChain framework for document processing
+langchain
+langchain-community
+
+# API clients
+openai
+
+# File processing
+openpyxl
+python-docx
+pypdf
+
+# Utilities
+tqdm
+python-dotenv
+
+# Optional: For GPU acceleration (uncomment if using CUDA)
+# faiss-gpu
+
+# Note: Some packages may have specific version requirements based on your system
+# If you encounter compatibility issues, consider using specific versions:
+# torch>=1.9.0
+# transformers>=4.21.0
+# sentence-transformers>=2.2.0

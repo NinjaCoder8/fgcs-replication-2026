@@ -1,0 +1,24 @@
+# MLOps Actors: Dimensions, Clusters & Leading Actors
+
+## Analysis Approach
+I analyzed the 16 actors based on their **primary focus area**, **skill set**, and **role in the MLOps lifecycle** to derive meaningful dimensions.
+
+---
+
+## Structured Table
+
+| **Dimension** | **List of Actors** | **Proposed Leading Actor** |
+|---|---|---|
+| 🏢 **Business & Management** — Actors focused on strategic goals, business requirements, governance oversight, and project management | Business Stakeholder, Manager, Domain Expert | **Manager** |
+| 🏗️ **Architecture & Design** — Actors responsible for system design, technical blueprinting, and end-to-end solution planning | Solution Architect | **Solution Architect** |
+| 🔬 **Data & Science** — Actors centered on data lifecycle management, research, experimentation, and model development | Data Scientist, Data Engineer, Data Steward, Scientist | **Data Scientist** |
+| 💻 **Software & ML Development** — Actors focused on building, coding, and integrating ML models and software applications | ML Engineer / Developer, Software Developer, Software Engineer, Application Developer | **ML Engineer / Developer** |
+| ⚙️ **Operations & Infrastructure** — Actors responsible for deployment, monitoring, automation, and IT infrastructure management | DevOps Engineer, MLOps Engineer, Operations Engineer, IT Operations / Professional | **MLOps Engineer** |
+
+---
+
+## Key Rationale
+- **Manager** leads Business & Management as the bridge between technical teams and stakeholders.
+- **Data Scientist** leads Data & Science as the primary driver of model experimentation.
+- **ML Engineer** leads Development as the integrator of ML models into production systems.
+- **MLOps Engineer** leads Operations as the owner of the end-to-end ML pipeline automation.

@@ -1,0 +1,36 @@
+Below is one possible way to extract orthogonal “dimensions” from the 16 roles, group the roles by dimension, and propose a leading actor for each dimension.
+
+Dimension                    | List of Actors                                                                             | Proposed Leading Actor  
+---------------------------- | ------------------------------------------------------------------------------------------- | -----------------------  
+Business & Domain            | Business Stakeholder, Manager, Domain Expert                                                | Business Stakeholder  
+Solution & System Design     | Solution Architect                                                                          | Solution Architect     
+Data & DataOps               | Data Engineer, Data Steward                                                                 | Data Engineer          
+Modeling & Data Science      | Data Scientist, Scientist                                                                   | Data Scientist         
+ML Engineering & SW Delivery | ML Engineer / Developer, Software Developer, Software Engineer, Application Developer       | ML Engineer / Developer
+DevOps & MLOps Operations    | DevOps Engineer, MLOps Engineer, Operations Engineer, IT Operations / Professional          | MLOps Engineer         
+
+Explanation of dimensions and leads:
+
+1. Business & Domain  
+   – Focuses on business requirements, ROI, domain knowledge, and governance.  
+   – Business Stakeholder leads to ensure alignment with business objectives.
+
+2. Solution & System Design  
+   – Defines end-to-end architecture, nonfunctional requirements, integration patterns.  
+   – Solution Architect leads design trade-offs across data, ML, and infra.
+
+3. Data & DataOps  
+   – Concerned with ingestion, transformation, cleaning, metadata, lineage, quality.  
+   – Data Engineer leads pipeline design and data infrastructure.
+
+4. Modeling & Data Science  
+   – Responsible for exploratory analysis, feature engineering, statistical modeling.  
+   – Data Scientist leads experiments, model selection, validation.
+
+5. ML Engineering & Software Delivery  
+   – Packs models into services, writes reusable libraries, implements APIs and UIs.  
+   – ML Engineer bridges data science and software engineering for production readiness.
+
+6. DevOps & MLOps Operations  
+   – Automates CI/CD, monitors infra and models, handles rollback, scaling, security.  
+   – MLOps Engineer owns the automation, orchestration, and runtime of ML systems.

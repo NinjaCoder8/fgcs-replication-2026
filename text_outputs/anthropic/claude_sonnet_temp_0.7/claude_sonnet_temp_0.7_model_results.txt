@@ -1,0 +1,28 @@
+# MLOps Actor Dimensions Analysis
+
+## Methodology
+I analyzed the 16 actors based on their **primary focus**, **skill orientation**, **organizational role**, and **proximity to technical vs. business concerns** in an MLOps process.
+
+---
+
+## Structured Table
+
+| **Dimension** | **List of Actors** | **Proposed Leading Actor** |
+|---|---|---|
+| **Business & Strategy** *(Actors focused on organizational goals, requirements, ROI, and strategic alignment)* | Business Stakeholder, Manager | Business Stakeholder |
+| **Domain & Data Expertise** *(Actors focused on domain knowledge, data governance, data quality, and scientific research)* | Domain Expert, Data Steward, Scientist | Domain Expert |
+| **Data & ML Development** *(Actors focused on data pipelines, model building, experimentation, and feature engineering)* | Data Scientist, Data Engineer, ML Engineer / Developer | Data Scientist |
+| **Software & Application Development** *(Actors focused on building software systems, APIs, and applications that integrate ML models)* | Software Developer, Software Engineer, Application Developer | Software Engineer |
+| **Architecture & Design** *(Actors focused on system design, infrastructure planning, and end-to-end solution blueprinting)* | Solution Architect, MLOps Engineer | Solution Architect |
+| **Operations & Infrastructure** *(Actors focused on deployment, monitoring, automation, CI/CD pipelines, and IT infrastructure management)* | DevOps Engineer, Operations Engineer, IT Operations / Professional | DevOps Engineer |
+
+---
+
+## Key Rationale
+
+- **Business & Strategy**: Drives *why* the ML system is built.
+- **Domain & Data Expertise**: Ensures *what data means* and its quality/compliance.
+- **Data & ML Development**: Handles *how models are built and trained*.
+- **Software & Application Development**: Manages *how ML is integrated* into products.
+- **Architecture & Design**: Defines *how the system is structured* end-to-end.
+- **Operations & Infrastructure**: Ensures *how the system runs reliably* in production.

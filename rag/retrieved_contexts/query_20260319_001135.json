@@ -1,0 +1,556 @@
+{
+  "query": "You're an expert in machine learning operations (MLOps). \nYou will find below a list that contains 16 Actors who appear in different activities in an MLOps process. \n\nI want you to:\n• Identify dimensions from the provided actors.\n• Cluster actors according to these dimensions.\n• Propose a leading actor for each dimension.\n\nFormat the final output as a structured table with three columns: Dimension, List of Actors, Proposed Leading Actor.\n\nHere is the list of actors:\n- Business Stakeholder\n- Solution Architect\n- Domain Expert\n- Manager\n- Data Scientist\n- Data Engineer\n- Data Steward\n- Scientist\n- ML Engineer / Developer\n- Software Developer\n- Software Engineer\n- Application Developer\n- DevOps Engineer\n- MLOps Engineer\n- Operations Engineer\n- IT Operations / Professional",
+  "retrieved_chunks": [
+    {
+      "rank": 1,
+      "distance": 0.5792158246040344,
+      "content": "to realize MLOps in the following. MLOps is an interdis-\nciplinary group process, and the interplay of different roles\nis crucial to design, manage, automate, and operate an ML\nsystem in production. In the following, every role, its purpose,\nand related tasks are briefly described:\nR1 Business Stakeholder (similar roles: Product Owner,\nProject Manager). The business stakeholder defines the\nbusiness goal to be achieved with ML and takes care of\nthe communication side of the business, e.g., presenting\nthe return on investment (ROI) generated with an ML\nproduct [7], [24], [45] [α , β, δ, θ].\nR2 Solution Architect (similar role: IT Architect).\nThe solution architect designs the architecture and defines\nthe technologies to be used, following a thorough\nevaluation [7], [24], [α , ζ].\nR3 Data Scientist (similar roles: ML Specialist,\nML Developer). The data scientist translates the business\nproblem into an ML problem and takes care of the model",
+      "metadata": {
+        "paper_id": "article_01",
+        "page_number": 7,
+        "source": "./articles\\article_01.pdf",
+        "chunk_index": 33
+      }
+    },
+    {
+      "rank": 2,
+      "distance": 0.6047006249427795,
+      "content": "• Data Scientists are involved in various phases of MLOps, such as designing the feasi-\nbility of elementary objectives and implementing model training which outcomes the\ncore of ML systems, a model.\n• As the Domain Expert is concerned with the engineering of requirements of domain-\nspeciﬁcundertakings, as well as validating (partial) results, this actor is irreplaceable\nwithin ML projects.\n• The assurance of ingesting real-world data in ML pipelines and optimal conditions\nfor applying them in projects is within the responsibility of Data Stewards.\n• A Data Engineer is concerned with transforming unprocessed data sets into interpre-\ntive information for the speciﬁedsystems.\n• Software Engineers achieve the requirement of deploying value-added ML-based\nproducts.\n• Operations Engineers realize the monitoring and continuous integration and delivery\nof the whole MLOps workﬂow.\nFigure 2. Common actors in MLOps and their responsibilities throughout the workﬂow.",
+      "metadata": {
+        "paper_id": "article_22",
+        "page_number": 10,
+        "source": "./articles\\article_22.pdf",
+        "chunk_index": 1212
+      }
+    },
+    {
+      "rank": 3,
+      "distance": 0.6496657133102417,
+      "content": "Appl. Sci. 2021, 11, 8861 10 of 39\nlisting of different roles involved in MLOps is depicted. In assembling related working\npackages into the different MLOps phases, e.g., Data Management, ML Preparation, and\nML Training and Deployment, the responsibilities of each actor are describedin more detail\nin the following. Additionally, requirements on supportive tools of the respective phases\n(as further described in Section 5.1) are referenced. Finally, for each phase, we deﬁne a\nsection as Supportive Tool Requirements, which outline the recipes or features needed\nto be fulﬁlled in that phase. Subsequently, we outline each component in detail for that\nparticular stage.\nThe involved actors of MLOps workﬂow are as follows:\n• Data Scientists are involved in various phases of MLOps, such as designing the feasi-\nbility of elementary objectives and implementing model training which outcomes the\ncore of ML systems, a model.",
+      "metadata": {
+        "paper_id": "article_22",
+        "page_number": 10,
+        "source": "./articles\\article_22.pdf",
+        "chunk_index": 1211
+      }
+    },
+    {
+      "rank": 4,
+      "distance": 0.6958709955215454,
+      "content": "characterize the MLOps practices. \nThis situation contributed to the difficulty in \nconsolidating a maturity model that can assess the \nlevel of adoption and mastery of MLOps practices in \norganizations. During the research, some studies were \nfound to have proposed maturity models based on the \nCapability Maturity Model – CMM. However, these \nmodels sought a broader evaluation of the machine \nlearning solution development process, and do not \naddress in sufficient depth the practices related to \nMLOps. \nThe roles and responsibilities mentioned in the \narticles analyzed allow us to distinguish some \ncommon profiles in the studies, namely: (1) a domain \nspecialist; (2) a data scientist; (3) a manager; (4) a \ndata engineer; and (5) a developer. \nAnalysis of the articles identified some tools used \nfor managing the lifecycle of machine learning \nmodels that addressed the activities of deployment \nand operationalization of ML models. Tools \nmentioned in the articles include MLflow,",
+      "metadata": {
+        "paper_id": "article_10",
+        "page_number": 11,
+        "source": "./articles\\article_10.pdf",
+        "chunk_index": 550
+      }
+    },
+    {
+      "rank": 5,
+      "distance": 0.7220799922943115,
+      "content": "organization should have analytics and infrastructure \nexpertise; they need to have a comprehensive plan \nabout deploying the model and the production \ndataset’s training cycles.  \nAs a bridge linking the data scientist and software \nengineer, a unique responsible role is a viable solution \nto tackle machine learning models to production as \nsoon as possible. This specialist needs to have a \nglobal picture of the model lifecycle, like organizing \neach stage’s main interacti ons [13]. Infrastructural \ncoordination is necessary for having efficient \narchitectural usage and automatized, high-quality \ninput data from diversified sources. It makes the \ndeployment cycles of the models regular. \nThe role of MLOps as a Machine Learning branch \nof the DevOps is accepted in the machine learning \ndomain [13]. It is a compound of operation, machine \nlearning, and business understanding. All of them are \ndistinct competencies. The DevOps methodology is",
+      "metadata": {
+        "paper_id": "article_44",
+        "page_number": 2,
+        "source": "./articles\\article_44.pdf",
+        "chunk_index": 2322
+      }
+    },
+    {
+      "rank": 6,
+      "distance": 0.7359352111816406,
+      "content": "D. Kreuzberger et al.: Machine Learning Operations (MLOps): Overview, Definition, and Architecture\nC9 Monitoring Component (P8, P9). The monitoring\ncomponent takes care of the continuous monitoring of the\nmodel serving performance (e.g., prediction accuracy). Addi-\ntionally, monitoring of the ML infrastructure, CI/CD, and\norchestration are required [7], [23], [24], [28], [32], [33],\n[50], [α, ζ, η, θ]. Examples include Prometheus with Grafana\n[η, ζ], ELK stack (Elasticsearch, Logstash, and Kibana) [α ,\nη, ζ], and simply TensorBoard [θ]. Examples with built-in\nmonitoring capabilities are Kubeflow [θ], MLflow [η], and\nAWS SageMaker model monitor or cloud watch [ζ].\nC. ROLES\nAfter describing the principles and their resulting instanti-\nation of components, we identify necessary roles in order\nto realize MLOps in the following. MLOps is an interdis-\nciplinary group process, and the interplay of different roles\nis crucial to design, manage, automate, and operate an ML",
+      "metadata": {
+        "paper_id": "article_01",
+        "page_number": 7,
+        "source": "./articles\\article_01.pdf",
+        "chunk_index": 32
+      }
+    },
+    {
+      "rank": 7,
+      "distance": 0.7369474172592163,
+      "content": "D. Kreuzberger et al.: Machine Learning Operations (MLOps): Overview, Definition, and Architecture\nFIGURE 4. End-to-end MLOps architecture and workflow with functional components and roles.\n(A) MLOps product initiation. (1) The business stake-\nholder (R1) analyzes the business and identifies a potential\nbusiness problem that can be solved using ML. (2) The\nsolution architect (R2) defines the architecture design for the\noverall ML system, and decides on the technologies to be\nused after a thorough evaluation. (3) The data scientist (R3)\nderives an ML problem—such as whether regression or clas-\nsification should be used—from the business goal. (4) The\ndata engineer (R4) and the data scientist (R3) work together\nto understand which data is required to solve the problem.\n(5) Once the answers are clarified, the data engineer (R4) and\ndata scientist (R3) collaborate to locate the raw data sources\nfor the initial data analysis. They check the distribution, and",
+      "metadata": {
+        "paper_id": "article_01",
+        "page_number": 8,
+        "source": "./articles\\article_01.pdf",
+        "chunk_index": 39
+      }
+    },
+    {
+      "rank": 8,
+      "distance": 0.7386497259140015,
+      "content": "MLOps platform. Another key responsibility associated with the port -\nfolio is to deploy the developed MLOps platform for training, educa -\ntional, and operational support. \nSoftware Engineer : The Software Engineer guides the DevOps En -\ngineer during the development of MLOps platform. The Software Engi -\nneer provides guidelines to successfully scale ML operations for the \nplatform being developed. \nTable 8 summarises the required expertise of ML actors and groups \nthem under ML0 as the first set of requirements. \nTable 7 \nRequirements on AM process operations – AM6.  \nRQ#AM6 Process \nOperations \nProcess \nSuboperations \nRequirements \nA Pre- \nProcessing \nPart Part level requirements include \ncreating the digital design, \nconverting it into AM ready \nformat, setting up any substrate \nmaterial ( Gibson et al., 2015b ) \nSystem System level requirements include \nsetup, calibration, validation \ncheck, and steps specific to the \nsystem model or manufacturer ( \nGibson et al., 2015b )",
+      "metadata": {
+        "paper_id": "article_49",
+        "page_number": 12,
+        "source": "./articles\\article_49.pdf",
+        "chunk_index": 2662
+      }
+    },
+    {
+      "rank": 9,
+      "distance": 0.7440900802612305,
+      "content": "• Operations Engineers realize the monitoring and continuous integration and delivery\nof the whole MLOps workﬂow.\nFigure 2. Common actors in MLOps and their responsibilities throughout the workﬂow.\n4.1. Project Requirement Engineering\nAs the overall goal of a project is domain-speciﬁc, subject matters (e.g., domain experts)\nand data scientists must gather, engineer, and evaluate all necessary requirements for a\nsuccessful implementation. One major task of the data scientist is to help the domain expert\nin framing the problem, such that it is feasible for being solved by ML technology [30].\nAs MLOps projects advocate for cross-expertise collaboration, engineering-speciﬁcobscu-\nrities originating at this point have to be clariﬁed with the respective actors. In extreme\ncases, re-evaluating acquired concepts may be required, and implementing ﬁne-grained\ndiscussions about potential uncertainties throughout the whole project becomes extremely",
+      "metadata": {
+        "paper_id": "article_22",
+        "page_number": 10,
+        "source": "./articles\\article_22.pdf",
+        "chunk_index": 1213
+      }
+    },
+    {
+      "rank": 10,
+      "distance": 0.755858302116394,
+      "content": "engineered product [32], [α , γ].\nR6 DevOps Engineer . The DevOps engineer bridges\nthe gap between development and operations and ensures\nproper CI/CD automation, ML workflow orchestra-\ntion, model deployment to production, and monitoring\n[7], [22], [25], [51], [α , β, γ, ε, ζ, η, θ].\nR7 ML Engineer/MLOps Engineer . The ML engineer\nor MLOps engineer combines aspects of several roles and\nthus has cross-domain knowledge. This role incorporates\nskills from data scientists, data engineers, software engineers,\nDevOps engineers, and backend engineers (see Figure 3).\nThis cross-domain role builds up and operates the ML infras-\ntructure, manages the automated ML workflow pipelines\nFIGURE 3. Roles and their intersections contributing to the MLOps\nparadigm.\nand model deployment to production, and monitors both the\nmodel and the ML infrastructure [7], [24], [25], [32], [α , β,\nγ, δ, ε, ζ, η, θ].\nV. ARCHITECTURE AND WORKFLOW\nOn the basis of the identified principles, components, and",
+      "metadata": {
+        "paper_id": "article_01",
+        "page_number": 7,
+        "source": "./articles\\article_01.pdf",
+        "chunk_index": 35
+      }
+    },
+    {
+      "rank": 11,
+      "distance": 0.7638366222381592,
+      "content": "Computers in Industry 154 (2024) 104037\n5\n3.2. Analysis of requirements \nIn order to analyse the requirements, the needs of AM and ML sub -\ndomains are represented in terms of the required roles, modules, ac -\ntivities, and interactions for an MLOps platform. These terms are \ndescribed below, and their specific instances are explained which are \nreferred to throughout the paper. \nRoles : Roles represent personnel with skills and experience in one or \nmore of the subdomains from AM and ML. We use AM Actors and ML \nActors to represent roles of requirements. Roles can be cross-disciplinary \nin nature. \nModules : Modules represent systems that provide functionalities \nfrom specific subdomains of AM and ML. On an abstract level, a module \ncan refer to either a hardware or software system. A module can consist \nof several submodules. We use AM Systems and ML Systems to represent \nmodules of requirements. \nActivities : Activities represent actions from roles to develop and use",
+      "metadata": {
+        "paper_id": "article_49",
+        "page_number": 5,
+        "source": "./articles\\article_49.pdf",
+        "chunk_index": 2612
+      }
+    },
+    {
+      "rank": 12,
+      "distance": 0.7654819488525391,
+      "content": "system. \n6.1. Actor-actor (or human-human) interactions \nThe actor-actor interactions start right from the beginning and later \ngo hand in hand to enable continuous development of the MLOps once \nthe platform has been deployed. Fig. 8 represents all possible in -\nteractions of actors against specific roles identified earlier. The AM to \nML interactions are primarily concerned with the as-is conditions of the \nAM system and requirements (or expectations) at the beginning. Later, \nthe AM actors keep the ML side apprise of the state of deployed models \nor any bugs leading to incorrect predictions. Based on the identified AM \nrequirements, the ML side conveys the hardware and software re -\nquirements needed for interface deployment on the industrial AM \nprinter at the beginning. Once the instance of platform is populated with \nAM modules, the ML to AM interactions turn into validation, \nTable 11 \nRequired ML models for major AM tasks. Some representative examples for each",
+      "metadata": {
+        "paper_id": "article_49",
+        "page_number": 15,
+        "source": "./articles\\article_49.pdf",
+        "chunk_index": 2683
+      }
+    },
+    {
+      "rank": 13,
+      "distance": 0.7677850127220154,
+      "content": "evaluation [7], [24], [α , ζ].\nR3 Data Scientist (similar roles: ML Specialist,\nML Developer). The data scientist translates the business\nproblem into an ML problem and takes care of the model\nengineering, including the selection of the best-performing\nalgorithm and hyperparameters [7], [25], [32], [33], [α , β, γ,\nδ, ε, ζ, η, θ].\nR4 Data Engineer (similar role: DataOps Engineer).\nThe data engineer builds up and manages data and fea-\nture engineering pipelines. Moreover, this role ensures\nproper data ingestion to the databases of the feature store\nsystem [25], [26], [32], [α , β, γ, δ, ε, ζ, η, θ].\nR5 Software Engineer . The software engineer applies\nsoftware design patterns, widely accepted coding guidelines,\nand best practices to turn the raw ML problem into a well-\nengineered product [32], [α , γ].\nR6 DevOps Engineer . The DevOps engineer bridges\nthe gap between development and operations and ensures\nproper CI/CD automation, ML workflow orchestra-",
+      "metadata": {
+        "paper_id": "article_01",
+        "page_number": 7,
+        "source": "./articles\\article_01.pdf",
+        "chunk_index": 34
+      }
+    },
+    {
+      "rank": 14,
+      "distance": 0.7697432041168213,
+      "content": "D. Kreuzberger et al.: Machine Learning Operations (MLOps): Overview, Definition, and Architecture\nTABLE 2. List of interview partners.\ntechnical components of which they consist. An overview of\nthe identified tools is depicted in Table 1.\nC. INTERVIEW STUDY\nTo answer the research questions with insights from practice,\nwe conduct semi-structured expert interviews according to\nMyers and Newman [18]. One major aspect in the research\ndesign of expert interviews is choosing an appropriate sample\nsize [20]. We apply a theoretical sampling approach [21],\nwhich allows us to choose experienced interview partners to\nobtain high-quality data. Such data can provide meaningful\ninsights with a limited number of interviews. To get an ade-\nquate sample group and reliable insights, we use LinkedIn—a\nsocial network for professionals—to identify experienced\nML professionals with profound MLOps knowledge on a\nglobal level. To gain insights from various perspectives,",
+      "metadata": {
+        "paper_id": "article_01",
+        "page_number": 4,
+        "source": "./articles\\article_01.pdf",
+        "chunk_index": 13
+      }
+    },
+    {
+      "rank": 15,
+      "distance": 0.7729475498199463,
+      "content": "is aimed at supporting AM process phase, the AM operations can be \ncategorized into pre-processing, processing, and post-processing. The \nrespective requirements are listed in the Table 7 . \n5. Requirements for machine learning \nThis section describes in detail the technical requirements for ML to \nsupport the MLOps for industrial applications of AM. These re -\nquirements are decomposed into actors, data & model pipeline devel -\nopment, system development, and critical ML operations. The \nrequirements related to the interfaces are described separately in Sec -\ntion 6 . \n5.1. ML actors \nML actors refer to the roles identified earlier. As can be seen, various \nexperts must be involved in the development process. Fig. 6 identifies \nthe key ML roles, describes their mandates, and highlights the in -\nteractions among these actors. \nML Owner : The ML Owner translates AM needs into actions for ML \nroles. The ML Owner is also responsible for conveying project level",
+      "metadata": {
+        "paper_id": "article_49",
+        "page_number": 12,
+        "source": "./articles\\article_49.pdf",
+        "chunk_index": 2659
+      }
+    },
+    {
+      "rank": 16,
+      "distance": 0.7764643430709839,
+      "content": "model the following items: (a) AI Model Goal \nSetting; (b) Data Pipeline Management; (c) Feature \nPreparation Pipeline; (d) Train Pipeline Management; \n(e) Model Quality, Performance and Model \nManagement; (f) Model Error Analysis; (g) Model \nFairness & Trust; (h) Model Transparency. \nThe maturity models identified in this SLR \nindirectly allow the level of improvement in the \nactivities of developing machine learning models to \nbe assessed. However, it is observed that aspects \nrelated to MLOps are not directly assessed. \nTherefore, it appears that this finding is an \nopportunity for improvement by developing research \nfor this purpose.\n \n5.4 RQ3 – What Roles and \nResponsibilities Are Identified in \nthe Activities of Operationalizing \nMachine Learning Models? \nThis RQ was drawn up with the purpose of knowing \nthe roles involved in docu mented MLOps processes, \nthus seeking to consolidate the professional profiles",
+      "metadata": {
+        "paper_id": "article_10",
+        "page_number": 8,
+        "source": "./articles\\article_10.pdf",
+        "chunk_index": 532
+      }
+    },
+    {
+      "rank": 17,
+      "distance": 0.7778792381286621,
+      "content": "levels for each assessed capability: (1) initial, (2) repeatable, (3) defined, (4) managed, and (5)\noptimizing.\n3.8. Roles and responsibilities identified in ML model operationalization activities\nDespite some differences in the detail of roles, the reviews examined recognize the need to involve\nprofessionals from various fields - software development, data engineering, machine learning, subject\nmatter experts, and management - for the successful operationalization of machine learning models.\nClose collaboration and communication between these roles is critical for the implementation of MLOps\npractices in organizations.\nThe reviews identify the following key roles and responsibilities in ML model operationalization\nactivities:\n• Data scientists/ML scientists, who are responsible for developing, training, and experimenting\nwith ML models.\n• Data engineers/data providers, who are responsible for extracting, processing, transforming, and\nensuring the quality of data for training models.",
+      "metadata": {
+        "paper_id": "article_20",
+        "page_number": 6,
+        "source": "./articles\\article_20.pdf",
+        "chunk_index": 1016
+      }
+    },
+    {
+      "rank": 18,
+      "distance": 0.7803636789321899,
+      "content": "teractions among these actors. \nML Owner : The ML Owner translates AM needs into actions for ML \nroles. The ML Owner is also responsible for conveying project level \nneeds to the AM side. In addition to project level decisions, the ML \nOwner is responsible for making the necessary tools, materials, and re -\nsources available to all ML actors. \nML Architect : The ML Architect translates the technical requirement \nof handling AM data representation and supporting predictions on AM \ntasks into modules and engines with the relevant functionalities. The ML \nArchitect also ensures that the ML operations can address the scale of \nAM needs. Depending on the existing state of AM system(s), the ML \nArchitect is responsible for conveying the needs of ML. \nData Scientist : The primary role of the Data Scientist is to support \nthe development of data engines that can contain relevant pipelines of \nprocessing and feature engineering. The Data Scientist also assists the",
+      "metadata": {
+        "paper_id": "article_49",
+        "page_number": 12,
+        "source": "./articles\\article_49.pdf",
+        "chunk_index": 2660
+      }
+    },
+    {
+      "rank": 19,
+      "distance": 0.7831230163574219,
+      "content": "information. \nMachine Learning Operations (MLOps) is a paradigm used to deploy \nand manage ML models at scale. MLOps refer to the set of practices \nrecommended to develop, deploy, monitor, govern, and iterate ML \nmodels (Kreuzberger et al., 2022). An MLOps platform systematically \nprovides these functionalities in an integrated environment. While the \nML practices for production and operation can help manage ML solu -\ntions of AM, no guidelines exist to integrate the two sides for such a \nplatform. Moreover, no work has explored systems-level perspective for \nmanaging ML models developed for AM processes. In this work, we \nidentify fundamental roles, processes, systems, operations, and in -\nterfaces as functional components leading to practices that can be fol -\nlowed to develop an MLOps platform for generic AM process needs. \nSpecifically, this work contributes to:  \n1. Connecting the status of ML-driven AM research and applications to",
+      "metadata": {
+        "paper_id": "article_49",
+        "page_number": 2,
+        "source": "./articles\\article_49.pdf",
+        "chunk_index": 2587
+      }
+    },
+    {
+      "rank": 20,
+      "distance": 0.7936993837356567,
+      "content": "Danylo O. Hanchuk et al. CEUR Workshop Proceedings 329–337\n• Managers, leadership, and business stakeholders, who define requirements for models regarding\ntheir deployment, make decisions, and support the MLOps strategy.\n• Domain experts, who provide domain knowledge and participate in data labeling in specific\ndomains.\nSome reviews also mention additional roles, such as computational scientists/engineers, ML scien-\ntists/engineers, provenance specialists, application developers, and deployment leads, who have specific\nresponsibilities in the MLOps process.\n3.9. Challenges encountered when deploying ML models in production\nenvironments\nThe reviews demonstrate that deploying machine learning models in production environments is\nassociated with a number of challenges, such as managing the model lifecycle, ensuring scalability\nand performance, monitoring and maintaining models in real-world conditions. Addressing these",
+      "metadata": {
+        "paper_id": "article_20",
+        "page_number": 7,
+        "source": "./articles\\article_20.pdf",
+        "chunk_index": 1018
+      }
+    },
+    {
+      "rank": 21,
+      "distance": 0.7965017557144165,
+      "content": "Machine Learning Models? \nThis RQ was drawn up with the purpose of knowing \nthe roles involved in docu mented MLOps processes, \nthus seeking to consolidate the professional profiles \nMLOps: Practices, Maturity Models, Roles, Tools, and Challenges – A Systematic Literature Review\n315",
+      "metadata": {
+        "paper_id": "article_10",
+        "page_number": 8,
+        "source": "./articles\\article_10.pdf",
+        "chunk_index": 533
+      }
+    },
+    {
+      "rank": 22,
+      "distance": 0.8054517507553101,
+      "content": "High level architecture\nData Engineering\nModel Engineering\nSupporting activities\nVersioning\nInfrastructure\nTools\nAutomation\nOperations\nData \ncollection\nData \nanalysis\nData \npreparation\nModel \nbuilding\nModel \ntraining\nModel \nevaluation\nModel \nselection\nModel \npackaging\nModel \ndeployment\nMonitoring\nCI/CD \ntesting\nFigure 2: MLOps activities.\nmonitoring for ML are run to ensure quality of\nthe deployed system.\nModel Deployment: The production-ready ML\nmodels are deployed as part of the production\nsystem (Rahman and Kandogan, 2022).\nMonitoring: The performance (quality) of the\nML models is continuously monitored in order\nto determine whether a manual or automated\nintervention is necessary (Rahman and Kando-\ngan, 2022). Although ML methods are highly\nappreciated in Industry 4.0 settings, according\nto our experience, the application in production\nsettings is sometimes a bit conservative, i.e.,\nautomatically adjusting an existing or deploy-\ning a new version of a working ML model is",
+      "metadata": {
+        "paper_id": "article_25",
+        "page_number": 3,
+        "source": "./articles\\article_25.pdf",
+        "chunk_index": 1396
+      }
+    },
+    {
+      "rank": 23,
+      "distance": 0.8207310438156128,
+      "content": "(the Ops) could team up. MLOps adds to the group the data scientists, which minister datasets and \nconstruct AI models that dissect them. It likewise incorporates ML engineers, who run those datasets \nthrough the models in focused, automated ways. When  a ML model has been assembled, it should be \ncoordinated with real-world data and the business application or front-end services. The entire \napplication or parts thereof should be deployed without disrupting the assistance. Sending can be very \ndifficult if the ML components aren't treated as a vital piece of the application or production pipeline \n[11]. The proposed model supports the model creati on with automated machine learning and access \nincredible feature engineering, algorithm selecti on and hyper parameter-sweeping capabilities. This \nmodel increases group proficiency with shared  datasets, notebooks, models and customizable \ndashboards that track all parts of the machine learning measure.",
+      "metadata": {
+        "paper_id": "article_42",
+        "page_number": 10,
+        "source": "./articles\\article_42.pdf",
+        "chunk_index": 2269
+      }
+    },
+    {
+      "rank": 24,
+      "distance": 0.8207979202270508,
+      "content": "delivering, and deploying models for hosting machine \nlearning solutions. Their study details the functioning \nof the platform in activities performed by three \ndistinct profiles: (1) a data scientist, who is \nresponsible for creating and training the models; (2) a \nmanager, in charge of evaluating the models before \nthey are made available; (3) an end application \ndeveloper, who is responsible for developing \napplications that the models produced will run. \nThus, it is possible to distinguish some common \nprofiles that can be used to identify the roles and \nresponsibilities addressed in the articles analyzed in \nthis study, namely: (1) a domain specialist; (2) a data \nscientist; (3) a manager; (4) a data engineer; and (5) a \ndeveloper. \n5.5 RQ4 - What Tools Are Used in the \nActivities of Operationalizing \nMachine Learning Models? \nThe purpose of this RQ is to provide information \nabout the tools and solutions registered in the \nacademy for application in the development and",
+      "metadata": {
+        "paper_id": "article_10",
+        "page_number": 9,
+        "source": "./articles\\article_10.pdf",
+        "chunk_index": 537
+      }
+    },
+    {
+      "rank": 25,
+      "distance": 0.821022629737854,
+      "content": "with ML models.\n• Data engineers/data providers, who are responsible for extracting, processing, transforming, and\nensuring the quality of data for training models.\n• DevOps engineers, ML/MLOps engineers, and software engineers, who are responsible for\noperationalizing models, automating deployment processes, creating pipelines, and managing\nenvironments.\n333",
+      "metadata": {
+        "paper_id": "article_20",
+        "page_number": 6,
+        "source": "./articles\\article_20.pdf",
+        "chunk_index": 1017
+      }
+    },
+    {
+      "rank": 26,
+      "distance": 0.821399450302124,
+      "content": "have a product-focused perspective when designing ML\nproducts [γ ]. A great number of skills and individual roles\nare required for MLOps (β ). As our identified sources point\nout, there is a lack of highly skilled experts for these roles—\nespecially with regard to architects, data engineers, ML engi-\nneers, and DevOps engineers [26], [32], [38], [α , ε]. This is\nrelated to the necessary education of future professionals—\nas MLOps is typically not part of data science education [33]\n[γ]. Posoldova [6] further stresses this aspect by remarking\nthat students should not only learn about model creation, but\nmust also learn about technologies and components necessary\nto build functional ML products.\nData scientists alone cannot achieve the goals of MLOps. A\nmulti-disciplinary team is required [25], thus MLOps needs to\nbe a group process [α ]. This is often hindered because teams\nwork in silos rather than in cooperative setups [α ]. Addition-",
+      "metadata": {
+        "paper_id": "article_01",
+        "page_number": 11,
+        "source": "./articles\\article_01.pdf",
+        "chunk_index": 62
+      }
+    },
+    {
+      "rank": 27,
+      "distance": 0.8216763734817505,
+      "content": "among the workﬂow of implementing the solution. The task of deciding which stage should\nbe fulﬁlledby which actor is not so trivial as designing an ideal MLOps workﬂow; multiple\niterations are required. For organizations that are freshly adopting MLOps, there is a need\nto clarify the involvement of actors in the different stages. Reasoning from this, ﬁrst,a brief",
+      "metadata": {
+        "paper_id": "article_22",
+        "page_number": 9,
+        "source": "./articles\\article_22.pdf",
+        "chunk_index": 1210
+      }
+    },
+    {
+      "rank": 28,
+      "distance": 0.8227614164352417,
+      "content": "their components are highlighted in Fig. 7. \nInterface Layer: The interface layer is needed during the develop -\nment and deployment of the system. This can be represented by a user \ninterface and a data/decision interface. The user interface provides \nTable 8 \nRequired expertise of ML actors – ML0.  \nRQ#ML0 ML Actor Requirements \nA ML Owner Leadership, business goals, resource management \nB ML Architect Expertise in ML project design and management \nC Data Scientist Expertise in data science \nD ML Engineer Expertise in ML development \nE DevOps Engineer Expertise in support of MLOps \nF Software Engineer Expertise in software engineering  \nTable 9 \nRequired libraries to process AM data representations in support of AM tasks – \nML1.  \nRQ#ML1 Data \nRepresentation \nLibrary Processing Function \nA Tabular NumPy To process AM data in \nmatrices, vectors, and multi \ndimensional arrays from \ntabular representations ( \nHarris et al., 2020) \nMatplotlib To plot AM data (specifically",
+      "metadata": {
+        "paper_id": "article_49",
+        "page_number": 13,
+        "source": "./articles\\article_49.pdf",
+        "chunk_index": 2669
+      }
+    },
+    {
+      "rank": 29,
+      "distance": 0.824011504650116,
+      "content": "The MLOps process typically involves:\n2.2.1. Data Engineering: Crucial step in the machine learning \npipeline, involves collecting vast amounts of data from diverse \nsources, such as sensors, databases, and web logs. The collected \ndata is often raw, incomplete, or inconsistent, requiring cleaning \nprocesses to remove errors, outliers, and duplicate information. \nData preprocessing, another essential task, transforms the cleaned \ndata into a suitable format for machine learning algorithms. This \nprocess may include feature engineering, data normalization, \nand binning. By collecting, cleaning, and preprocessing data \neffectively, data engineers ensure the high quality and reliability \nof inputs for machine learning models, leading to more accurate \nand robust predictions.\n2.2.2. Model Training: Developing and training machine \nlearning (ML) models involves employing diverse algorithms \ntailored to specific tasks. These algorithms include supervised",
+      "metadata": {
+        "paper_id": "article_13",
+        "page_number": 2,
+        "source": "./articles\\article_13.pdf",
+        "chunk_index": 656
+      }
+    },
+    {
+      "rank": 30,
+      "distance": 0.8284438848495483,
+      "content": "needs. Fig. 3 presents an activity diagram of both sides. It systematically \ninterfaces the components of AM and ML leading to the development, \ndeployment, and maintenance of the platform for industrial AM systems. \nThe roles represent expertise from the domains identified earlier. \nOne person may have multiple expertise covering several of the identi -\nfied roles. On the ML side, we identify ML Owner (MLO), ML Architect \n(MLA), Data Scientist (DS), Software Engineer (SE), Development and \nOperations Engineer (DevOpsE), and ML Engineer (MLE) as the required \nexpertise. These roles support project setup, ML process and system \ndevelopment, ML operations and the developed MLOps platform. Their \ndescriptions and interactions among each other are discussed in Section \n5 , which focuses on ML requirements. On the AM side, we identify AM \nOwner (AMO), AM Manager (AMM), Process Engineer (PE), Materials \nEngineer (ME), AM Researcher (AMR), AM Scientist (AMS) and AM",
+      "metadata": {
+        "paper_id": "article_49",
+        "page_number": 6,
+        "source": "./articles\\article_49.pdf",
+        "chunk_index": 2617
+      }
+    },
+    {
+      "rank": 31,
+      "distance": 0.8316351771354675,
+      "content": "done throughout the text. \nThe description of each role is as follows: \nAM Owner : The AM Owner identifies the business needs of AM \nsuitable for ML applications in terms of their scale and nature. AM \nOwner is also responsible for making the necessary resources available \nto AM and ML actors per the project ’ s requirements. \nAM Manager : The AM Manager provides technical supervision to \nAM activities of process and system development. AM Manager also \nconveys the scope of AM needs for ML solutions and acts as a bridge \nbetween the AM Owner and ML actors to translate ML needs into rele -\nvant actions. \nProcess Engineer : The Process Engineer brings expertise in one or \nmore of the seven standard AM technologies for specific applications \nand materials. Process Engineer is tasked with developing AM process to \na level that can support experimentation to generate ML worthy AM \ndata. \nMaterials Engineer : The Materials Engineer supports the Process",
+      "metadata": {
+        "paper_id": "article_49",
+        "page_number": 8,
+        "source": "./articles\\article_49.pdf",
+        "chunk_index": 2627
+      }
+    },
+    {
+      "rank": 32,
+      "distance": 0.8436784744262695,
+      "content": "learning solutions in an industrial environment.\n3.2. MLOps workflow stages\nDespite different levels of detail and grouping, the reviews demonstrate overall consistency regarding\nthe main stages of the MLOps workflow. These stages cover the entire lifecycle of machine learning\nmodels, from data collection and processing to deployment, monitoring, and retraining of models.\nDifferences in the presentation of stages reflect different approaches to structuring and describing the\nMLOps workflow.\nThe main stages of the MLOps workflow identified in the reviews include:\n• Data collection and processing: collecting, cleaning, transforming, and enriching data for training\nmodels.\n• Model development and training: selecting algorithms, developing model architecture, training\nand validating models.\n• Model evaluation and testing: evaluating model performance on test data, conducting reliability,\nsecurity, and compliance tests.",
+      "metadata": {
+        "paper_id": "article_20",
+        "page_number": 4,
+        "source": "./articles\\article_20.pdf",
+        "chunk_index": 1006
+      }
+    },
+    {
+      "rank": 33,
+      "distance": 0.8460371494293213,
+      "content": "Figure 1: Graphical representation of MLOps, an end-to-end Machine Learning life-cycle management. It is an Iterative-\nIncremental Process mainly based on 3 stages: Data, Machine Learning (ML) and DevOps. The latter has two principles named\nContinuous Integration (CI) and Continuous Delivery (CD). MLOps adds other two practices named Continuous Monitoring\n(CM) and Continuous Training (CT). This work is focused on the Machine Learning development stage to train and validate\nthe models with MLOps practices and Continual Learning methodologies.\nhave been pre-trained on different user demographics,\nmight not work correctly according to quality metrics\n(locality).\nMLOps try to establish effective practices and pro-\ncesses around designing, building, and deploying ML\nmodels into production. Currently, MLOps tools range\nfrom using a machine-learning platform to implement-\ning an on-premise solution by composing open-source\nlibraries.\nMLOps platforms should support languages, frame-",
+      "metadata": {
+        "paper_id": "article_45",
+        "page_number": 3,
+        "source": "./articles\\article_45.pdf",
+        "chunk_index": 2360
+      }
+    },
+    {
+      "rank": 34,
+      "distance": 0.8461174964904785,
+      "content": "Danylo O. Hanchuk et al. CEUR Workshop Proceedings 329–337\n2. The main stages of the MLOps lifecycle include data collection and processing, model development\nand training, deployment, monitoring, and retraining.\n3. Various frameworks and architectures are used to implement MLOps, such as open source\nplatforms (MLflow, Kubeflow, TensorFlow Extended), cloud computing platforms (AWS, Google\nCloud, Azure), containerization (Docker), and container orchestration (Kubernetes).\n4. MLOps tools provide a wide range of features to support the machine learning model lifecycle,\nwith a focus on automation, experiment tracking, versioning, monitoring, and model deployment.\n5. The most common methods of deploying machine learning models in production environments\nare the use of container technologies, cloud platforms and services, and deployment of models as\nweb services.\n6. Adapted software development maturity models, such as CMM, can be used to assess the maturity",
+      "metadata": {
+        "paper_id": "article_20",
+        "page_number": 9,
+        "source": "./articles\\article_20.pdf",
+        "chunk_index": 1028
+      }
+    },
+    {
+      "rank": 35,
+      "distance": 0.8480331301689148,
+      "content": "D. Kreuzberger et al.: Machine Learning Operations (MLOps): Overview, Definition, and Architecture\nTo answer that question, we conduct a mixed-method\nresearch endeavor to (a) identify important principles of\nMLOps, (b) carve out functional core components, (c) high-\nlight the roles necessary to successfully implement MLOps,\nand (d) derive a general architecture for ML systems design.\nIn combination, these insights result in a definition of\nMLOps, which contributes to a common understanding of the\nterm and related concepts.\nTherefore, we hope to positively impact academic and\npractical discussions by providing clear guidelines for pro-\nfessionals and researchers alike with precise responsibilities.\nThese insights can assist in allowing more proofs of concept\nto make it into production by having fewer errors in the\nsystem’s design and, finally, enabling more robust predictions\nin real-world environments.\nThe remainder of this article is structured as follows.",
+      "metadata": {
+        "paper_id": "article_01",
+        "page_number": 2,
+        "source": "./articles\\article_01.pdf",
+        "chunk_index": 5
+      }
+    },
+    {
+      "rank": 36,
+      "distance": 0.8483180999755859,
+      "content": "involves integrating various disciplines such as data engineering, \nmodel training, continuous integration and continuous delivery \n(CI/CD), and monitoring into a cohesive framework [7], [8]. \nKey components of MLOps include data versioning to ensure \nconsistent and reliable data for model training, automated \nmodel training to streamline the model development process, \nmodel validation to assess model performance and identify \npotential issues, deployment to seamlessly move models from \ndevelopment to production environments, and monitoring to \ntrack model behavior and identify any performance degradation \nor data drift over time [9]. By adopting MLOps, organizations \ncan ensure the accuracy, reliability, and performance of their \nmachine learning models throughout their lifecycle.\nThe MLOps process typically involves:\n2.2.1. Data Engineering: Crucial step in the machine learning \npipeline, involves collecting vast amounts of data from diverse",
+      "metadata": {
+        "paper_id": "article_13",
+        "page_number": 2,
+        "source": "./articles\\article_13.pdf",
+        "chunk_index": 655
+      }
+    },
+    {
+      "rank": 37,
+      "distance": 0.8504149913787842,
+      "content": "I. I NTRODUCTION\nMachine Learning Operations (MLOps) [1], derived from\nDevOps, is a collection of practices and techniques to unify the\ndevelopment, deployment, and operation of machine learning\n(ML) systems, aiming to streamline the process of shifting ML\nsolutions to production. MLOps covers multiple phases of an\nML project, such as data engineering, model training and eval-\nuation, model validation, model deployment and serving, and\nmodel monitoring. An MLOps pipeline brings tool automation\ninto MLOps [2] by multiple pipeline components responsible\nfor different MLOps phases. As the production environment\ninevitably changes or cannot be covered comprehensively,\nit signiﬁcantly affects ML models’ performance as they are\nsensitive to dynamic data – models which have passed initial\nvalidation tests may not perform as expected in the long\nrun. For example, a recommender system may fail to provide\naccurate recommendations due to the new items it has not",
+      "metadata": {
+        "paper_id": "article_36",
+        "page_number": 1,
+        "source": "./articles\\article_36.pdf",
+        "chunk_index": 1776
+      }
+    },
+    {
+      "rank": 38,
+      "distance": 0.8520326614379883,
+      "content": "World Journal of Advanced Engineering Technology and Sciences, 2025, 14(01), 241-253 \n243 \n2.2. MLOps \n \nFigure 2 MLOps \nMLOps is a term used to refer to the integration of machine learning, development operations/software operations, and \ndata handling engineering to support machine learning models in developing and operating more efficiently. It \nhighlights automation, code repro ducibility, and production infrastructure integration and delivery models. Unlike \nconventional DevOps for regular applications, MLOps considers the ML systems and their peculiarities, including the \ncapability to work with dynamic data, the need to retrain the models when some shifts in data are detected, and the \nversioning and governing of models. Platforms like Kubeflow and MLflow used in MLOps ensure that everyone involved \nin creating an ML application can easily collaborate to deliver quality work. \n2.3. Interdependence of Data Engineering and MLOps",
+      "metadata": {
+        "paper_id": "article_05",
+        "page_number": 3,
+        "source": "./articles\\article_05.pdf",
+        "chunk_index": 253
+      }
+    },
+    {
+      "rank": 39,
+      "distance": 0.8545876741409302,
+      "content": "deployed to a production environment, where it is used to\nmake real-time ad targeting decisions. In this case, Apache\nAirflow is used to automate the entire process, including\nscheduling, monitoring, and re-running failed tasks.\nVI. CONCEPTUALIZATON\nWith the findings at hand, we conceptualize the literature\nand interviews. It becomes obvious that the term MLOps is\npositioned at the intersection of machine learning, software\nengineering, DevOps, and data engineering (see Figure 5).\nWe define MLOps as follows:\nMLOps (Machine Learning Operations) is a paradigm,\nincluding aspects like best practices, sets of concepts, as\nwell as a development culture when it comes to the end-to-\nend conceptualization, implementation, monitoring, deploy-\nment, and scalability of machine learning products. Most\nof all, it is an engineering practice that leverages three\ncontributing disciplines: machine learning, software engi-\nneering (especially DevOps), and data engineering. MLOps",
+      "metadata": {
+        "paper_id": "article_01",
+        "page_number": 11,
+        "source": "./articles\\article_01.pdf",
+        "chunk_index": 59
+      }
+    },
+    {
+      "rank": 40,
+      "distance": 0.8557456731796265,
+      "content": "D. Kreuzberger et al.: Machine Learning Operations (MLOps): Overview, Definition, and Architecture\ncode [23], [24], [36], [37], [38] [α , β, γ, ζ, θ]. Exam-\nples include Bitbucket [39], [ζ], GitLab [24], [39], [ζ],\nGitHub [37], [ζ, η], and Gitea [23].\nC3 Workflow Orchestration Component (P2, P3, P6).\nThe workflow orchestration component offers task orchestra-\ntion of an ML workflow via directed acyclic graphs (DAGs).\nThese graphs represent execution order and artifact usage of\nsingle steps of the workflow. A workflow uses for example\npackaged code artifacts in the respective process step, like\nextracting data, training, inference or embedding of a model\nbinary into an application [6], [7], [23], [26], [31], [α, β, γ, δ,\nε, ζ, η]. Examples include Apache Airflow [α , ζ], Kubeflow\nPipelines [ζ], Watson Studio Pipelines [γ ], Luigi [ζ], AWS\nSageMaker Pipelines [β], and Azure Pipelines [ε]. In theory,\nCI/CD tools could also be used to schedule the triggering of",
+      "metadata": {
+        "paper_id": "article_01",
+        "page_number": 6,
+        "source": "./articles\\article_01.pdf",
+        "chunk_index": 24
+      }
+    },
+    {
+      "rank": 41,
+      "distance": 0.8560371398925781,
+      "content": "Conference on Operational Machine Learning (OpML 19) (pp. 9-11).\n[29] MLOps: Continuous Delivery for Machine Learning on AWS.\nhttps://d1.awsstatic.com/whitepapers/mlops-continuous-delivery-\nmachine-learning-on-aws.pdf\n[30] MLOps Foundations. https://www.rackspace.com/sites/default/ﬁles/white-\npapers/MLOps Foundations Data Sheet.pdf\n[31] MLOps. https://perspecta.com/sites/default/ﬁles/2021-\n02/MLOps%20Whitepaper022321.pdf\n[32] Machine Learning Operations (MLOps) A Meetup.\nhttps://higherlogicdownload.s3.amazonaws.com/IMWUC/UploadedImages\n/12f13a33-bced-4573-8dd7-be58d519757c/MLOps.pdf\n[33] Inroducing MLOps. https://itlligenze.com/uploads/5/137039/ﬁles/oreilly-\nml-ops.pdf\n[34] Eight must-haves for MLOps success and when to use them.\nhttps://info.algorithmia.com/hubfs/2020/Webinars/Forrester/Eight-must-\nhaves-slides-ﬁnal.pdf?hsLang=en-u\n[35] MLOps: Machine Learning Operationalization.\nhttps://cdn.activestate.com/wp-content/uploads/2018/10/webinar-slides-\nmlops.pdf",
+      "metadata": {
+        "paper_id": "article_03",
+        "page_number": 8,
+        "source": "./articles\\article_03.pdf",
+        "chunk_index": 191
+      }
+    },
+    {
+      "rank": 42,
+      "distance": 0.8589118719100952,
+      "content": "is subdivided into data management and modeling.\nEach stage consists of a cycle with tasks that connect\ncycles to each other. These models do not address the\n1. Manual\nstep\n2. Autom./\nMLOps\nHigh \nlevel\narchitecture\nDeployed\nmodel\n3. Model\napplication\nMonitoring Feedback\nBusiness \nproblem/ \nidea\nFigure 1: High level structure of the MLOps cycle.\nspecific activities of MLOps, but make it clear that\nML is added to DevOps principles. Moreover, they\ndo not include cross-cutting activities. Therefore, we\npropose a new life-cycle. Our life-cycle model de-\nfines the phases (Fig. 2): Data Engineering, Model\nEngineering, and Operations, each consisting of mul-\ntiple activities; they are complemented by supporting\nactivities.\nData Engineering\nData Collection: This provides a basis for ma-\nchine learning. The collected data can include\nmachine data, product information, customer\ndata, behavioral data, etc. The relevant data\nneeds to be determined based on the use case",
+      "metadata": {
+        "paper_id": "article_25",
+        "page_number": 2,
+        "source": "./articles\\article_25.pdf",
+        "chunk_index": 1392
+      }
+    },
+    {
+      "rank": 43,
+      "distance": 0.8593953847885132,
+      "content": "[5] Paleyes, A., Urma, R., & Lawrence, N.D. 2020. Challenges in Deploying Machine\nLearning: a Survey of Case Studies. ArXiv, abs/2011.09926.\n[6] Renggli, C., Rimanic, L., Gurel, N.M., Karlavs, B., Wu, W., & Zhang, C. 2021. A\nData Quality-Driven View of MLOps. ArXiv, abs/2102.07750.\n[7] Ruf, P., Madan, M., Reich, C., & Ould-Abdeslam, D. 2021. Demystifying MLOps\nand Presenting a Recipe for the Selection of Open-Source Tools. Applied Sciences.\n[8] Granlund, T., Kopponen, A., Stirbu, V., Myllyaho, L., & Mikkonen, T. 2021. MLOps\nChallenges in Multi-Organization Setup: Experiences from Two Real-World Cases.\n2021 IEEE/ACM 1st Workshop on AI Engineering - Software Engineering for AI\n(WAIN), 82-88.\n[9] Tamburri, D.A. 2020. Sustainable MLOps: Trends and Challenges. 2020 22nd\nInternational Symposium on Symbolic and Numeric Algorithms for Scientific\nComputing (SYNASC), 17-23.\n[10] Zhou, Y., Yu, Y., & Ding, B. 2020. Towards MLOps: A Case Study of ML Pipeline",
+      "metadata": {
+        "paper_id": "article_47",
+        "page_number": 6,
+        "source": "./articles\\article_47.pdf",
+        "chunk_index": 2479
+      }
+    },
+    {
+      "rank": 44,
+      "distance": 0.8604236841201782,
+      "content": "explainability and ethical AI practices in the \nMLOps lifecycle. \nBuilds trust and regulatory compliance while \nensuring transparency in AI-driven systems. \nUnified DataOps \nand MLOps \nPlatforms \nDevelopment of platforms combining DataOps \nand MLOps for seamless data -to-deployment \nworkflows. \nStreamlines pipeline management and fosters \nbetter collaboration between data and ML teams. \nHybrid Multi -\nCloud Strategies \nLeveraging multiple cloud environments for \npipeline resilience and cost optimization. \nEnhances flexibility, fault tolerance, and reduces \ndependency on a single cloud provider. \n7. Conclusion \nData engineering and MLOps are both fundamental for an essential step in building and operating highly scalable and \nreliable ML pipelines. These two areas intertwine because they are becoming increasingly critical, as strategic \nmanagement for various organizations requires more data management and analysis. The use of data engineering and",
+      "metadata": {
+        "paper_id": "article_05",
+        "page_number": 10,
+        "source": "./articles\\article_05.pdf",
+        "chunk_index": 291
+      }
+    },
+    {
+      "rank": 45,
+      "distance": 0.8605079650878906,
+      "content": "[4] Mäkinen S, Skogström H, Laaksonen E and Mikkonen T 2021 Who Needs MLOps: What Data \nScientists Seek to Accomplish and How Can MLOps Help? IEEE/ACM 1st Workshop on AI \nEngineering-Software Engineering for AI (WAIN) (Madrid, Spain) pp 109-112. \n[5] Gupta M, Chowdary M N, Bussa S and Chowdary C K 2021 Deploying Hadoop Architecture \nUsing Ansible and Terraform 5th IEEE International Conference on Information Systems and \nComputer Networks (ISCON) (Mathura, India) pp 1-6. \n[6] Gupta M, Sanjana K, Akhilesh K and Chowdary M N 2021 Deployment of Multi-Tier Application \non Cloud and Continuous Monitoring using Kubernetes 5th IEEE International Conference \non Electrical, Electronics, Communication, Computer Technologies and Optimization \nTechniques (ICEECCOT) (Mysuru, India) pp 602-607. \n[7] Tamburri D A 2020 Sustainable MLOps: Trends and challenges 22nd IEEE International \nSymposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC) \n(Timisoara, Romania) pp 17-23.",
+      "metadata": {
+        "paper_id": "article_42",
+        "page_number": 11,
+        "source": "./articles\\article_42.pdf",
+        "chunk_index": 2272
+      }
+    },
+    {
+      "rank": 46,
+      "distance": 0.8605787754058838,
+      "content": "MLOps. The first category includes CI/CD tool classes,\nCode Repository, Container Orchestrator. The second cate-\ngory includes primarily the following: Model Orchestrator,\nModel Repository and Feature Store. A summary of MLOps\ntool classes, together with the most popular solutions, is pre-\nsented in Fig. 6. It is also the MLOps reference architecture,\nwhich can be referred to when building dedicated solutions.\nWe also defined the model production process in the MLOps\nenvironment. However, market standards for some steps, such\nas model monitoring, have not yet been developed. Finally,\nthe absence of publications detailing metrics for evaluating\nMLOps implementations was unexpected. Perhaps this is\ndue to the immaturity of this area and measurable indicators\nwill be developed to assess the quality of the implemented\nMLOps environment and compare these indicators between\ncompanies.\nIn the future, we plan to work in three areas. First, we want",
+      "metadata": {
+        "paper_id": "article_51",
+        "page_number": 8,
+        "source": "./articles\\article_51.pdf",
+        "chunk_index": 2871
+      }
+    },
+    {
+      "rank": 47,
+      "distance": 0.8639422655105591,
+      "content": "However, there exists no guidance or framework to systematically adapt \nthese solutions in industry. Moreover, the knowledge gap between AM \nand ML hinders smooth transition of these solutions from ML environ -\nments to AM machines. There is a lack of systematic approaches to guide \nthis multi-disciplinary process involving several domains. Research into \nAM informatics is mostly limited to data and information management. \nWith more and more data-driven models developed for AM challenges, a \nsystems approach is needed to transition these solutions from academia \nand research to operations and industry. \nWe identified the key requirements for developing an MLOps plat -\nform that can be tailored to AM process needs and support ML models. A \nproject level activity diagram has been presented and used to identify \nthe requirements. The fundamental requirements were divided into \nroles, processes, systems, operations, and interfaces. The requirements",
+      "metadata": {
+        "paper_id": "article_49",
+        "page_number": 18,
+        "source": "./articles\\article_49.pdf",
+        "chunk_index": 2706
+      }
+    },
+    {
+      "rank": 48,
+      "distance": 0.8642852902412415,
+      "content": "social network for professionals—to identify experienced\nML professionals with profound MLOps knowledge on a\nglobal level. To gain insights from various perspectives,\nwe choose interview partners from different organizations\nand industries, different countries, and nationalities, as well\nas different genders. Interviews are conducted until no new\ncategories and concepts emerge in the analysis of the data.\nAccording to Glaser and Strauss [21], this stage is called\n‘‘theoretical saturation.’’ In total, we conduct eight interviews\nwith experts (pseudonymized with α - θ), whose details are\ndepicted in Table 2. All interviews are conducted between\nJune and August 2021.\nWith regard to the interview design, we prepare a semi-\nstructured guide with several questions, documented as an\ninterview script [18]. During the interviews, ‘‘soft ladder-\ning’’ is used with ‘‘how’’ and ‘‘why’’ questions to probe\nthe interviewees’ means-end chain [19]. This methodical",
+      "metadata": {
+        "paper_id": "article_01",
+        "page_number": 4,
+        "source": "./articles\\article_01.pdf",
+        "chunk_index": 14
+      }
+    },
+    {
+      "rank": 49,
+      "distance": 0.865275502204895,
+      "content": "Although MLOps is a relatively new field, important work and progress have\nbeen made. While some researchers focus on properly defining MLOps and\nproviding an overview of its concepts and best practices [16, 30, 32], others\ninvestigate the challenges faced in ML systems operationalization. Tamburri\nhighlights in [31] the limited attention given to MLOps within academia and\nthe lack of data engineering skills in academia as well as in industry. Reng-\ngli et al. [25] and Granlund et al. [7] extend on this and show that one\nmassive problem in MLOps is data management. This is mostly due to the\nstrong dependency between model performance and data quality. The cloud\narchitecture center of Google proposes in [2] how to automate ML workflows.\nThey classify MLOps into three different levels: MLOps Level 0 that refers\nto classical ML pipelines with no CI, no CD and manually operated work-\nflows totally disconnected from the ML system, MLOps Level 1 in which",
+      "metadata": {
+        "paper_id": "article_29",
+        "page_number": 5,
+        "source": "./articles\\article_29.pdf",
+        "chunk_index": 1619
+      }
+    },
+    {
+      "rank": 50,
+      "distance": 0.8660057783126831,
+      "content": "All of the previous definitions do not take into account what\nhas been made on the data, for this reason, it has been necessary\nto define another set of practices that are focused on data-driven\napplications, namely MLOps. Multiple entities have been trying\nto provide their vision on what are the most important stages\nand phases of MLOps, notably the most famous is the one from\nGoogle [2]. In the latter, the main focus has been posed on how\nto implement Continuous Integration (CI), Continuous Delivery\n(CD), and Continuous Training (CT) for ML systems. In particular,\nMLOps has been categorized based on the different levels of automa-\ntion from 0 to 2, which respectively stand for Manual Process and\nCI/CD automation. An \"MLOps level 2: CI/CD pipeline automation\"\n1Not available at the time of writing this work",
+      "metadata": {
+        "paper_id": "article_39",
+        "page_number": 2,
+        "source": "./articles\\article_39.pdf",
+        "chunk_index": 2083
+      }
+    }
+  ],
+  "final_prompt": "You are a helpful assistant for MLOps tasks.\n\nYour job is to answer the question using ONLY the context provided between the --- markers.\n\n\n---\nto realize MLOps in the following. MLOps is an interdis-\nciplinary group process, and the interplay of different roles\nis crucial to design, manage, automate, and operate an ML\nsystem in production. In the following, every role, its purpose,\nand related tasks are briefly described:\nR1 Business Stakeholder (similar roles: Product Owner,\nProject Manager). The business stakeholder defines the\nbusiness goal to be achieved with ML and takes care of\nthe communication side of the business, e.g., presenting\nthe return on investment (ROI) generated with an ML\nproduct [7], [24], [45] [α , β, δ, θ].\nR2 Solution Architect (similar role: IT Architect).\nThe solution architect designs the architecture and defines\nthe technologies to be used, following a thorough\nevaluation [7], [24], [α , ζ].\nR3 Data Scientist (similar roles: ML Specialist,\nML Developer). The data scientist translates the business\nproblem into an ML problem and takes care of the model\n\n• Data Scientists are involved in various phases of MLOps, such as designing the feasi-\nbility of elementary objectives and implementing model training which outcomes the\ncore of ML systems, a model.\n• As the Domain Expert is concerned with the engineering of requirements of domain-\nspeciﬁcundertakings, as well as validating (partial) results, this actor is irreplaceable\nwithin ML projects.\n• The assurance of ingesting real-world data in ML pipelines and optimal conditions\nfor applying them in projects is within the responsibility of Data Stewards.\n• A Data Engineer is concerned with transforming unprocessed data sets into interpre-\ntive information for the speciﬁedsystems.\n• Software Engineers achieve the requirement of deploying value-added ML-based\nproducts.\n• Operations Engineers realize the monitoring and continuous integration and delivery\nof the whole MLOps workﬂow.\nFigure 2. Common actors in MLOps and their responsibilities throughout the workﬂow.\n\nAppl. Sci. 2021, 11, 8861 10 of 39\nlisting of different roles involved in MLOps is depicted. In assembling related working\npackages into the different MLOps phases, e.g., Data Management, ML Preparation, and\nML Training and Deployment, the responsibilities of each actor are describedin more detail\nin the following. Additionally, requirements on supportive tools of the respective phases\n(as further described in Section 5.1) are referenced. Finally, for each phase, we deﬁne a\nsection as Supportive Tool Requirements, which outline the recipes or features needed\nto be fulﬁlled in that phase. Subsequently, we outline each component in detail for that\nparticular stage.\nThe involved actors of MLOps workﬂow are as follows:\n• Data Scientists are involved in various phases of MLOps, such as designing the feasi-\nbility of elementary objectives and implementing model training which outcomes the\ncore of ML systems, a model.\n\ncharacterize the MLOps practices. \nThis situation contributed to the difficulty in \nconsolidating a maturity model that can assess the \nlevel of adoption and mastery of MLOps practices in \norganizations. During the research, some studies were \nfound to have proposed maturity models based on the \nCapability Maturity Model – CMM. However, these \nmodels sought a broader evaluation of the machine \nlearning solution development process, and do not \naddress in sufficient depth the practices related to \nMLOps. \nThe roles and responsibilities mentioned in the \narticles analyzed allow us to distinguish some \ncommon profiles in the studies, namely: (1) a domain \nspecialist; (2) a data scientist; (3) a manager; (4) a \ndata engineer; and (5) a developer. \nAnalysis of the articles identified some tools used \nfor managing the lifecycle of machine learning \nmodels that addressed the activities of deployment \nand operationalization of ML models. Tools \nmentioned in the articles include MLflow,\n\norganization should have analytics and infrastructure \nexpertise; they need to have a comprehensive plan \nabout deploying the model and the production \ndataset’s training cycles.  \nAs a bridge linking the data scientist and software \nengineer, a unique responsible role is a viable solution \nto tackle machine learning models to production as \nsoon as possible. This specialist needs to have a \nglobal picture of the model lifecycle, like organizing \neach stage’s main interacti ons [13]. Infrastructural \ncoordination is necessary for having efficient \narchitectural usage and automatized, high-quality \ninput data from diversified sources. It makes the \ndeployment cycles of the models regular. \nThe role of MLOps as a Machine Learning branch \nof the DevOps is accepted in the machine learning \ndomain [13]. It is a compound of operation, machine \nlearning, and business understanding. All of them are \ndistinct competencies. The DevOps methodology is\n\nD. Kreuzberger et al.: Machine Learning Operations (MLOps): Overview, Definition, and Architecture\nC9 Monitoring Component (P8, P9). The monitoring\ncomponent takes care of the continuous monitoring of the\nmodel serving performance (e.g., prediction accuracy). Addi-\ntionally, monitoring of the ML infrastructure, CI/CD, and\norchestration are required [7], [23], [24], [28], [32], [33],\n[50], [α, ζ, η, θ]. Examples include Prometheus with Grafana\n[η, ζ], ELK stack (Elasticsearch, Logstash, and Kibana) [α ,\nη, ζ], and simply TensorBoard [θ]. Examples with built-in\nmonitoring capabilities are Kubeflow [θ], MLflow [η], and\nAWS SageMaker model monitor or cloud watch [ζ].\nC. ROLES\nAfter describing the principles and their resulting instanti-\nation of components, we identify necessary roles in order\nto realize MLOps in the following. MLOps is an interdis-\nciplinary group process, and the interplay of different roles\nis crucial to design, manage, automate, and operate an ML\n\nD. Kreuzberger et al.: Machine Learning Operations (MLOps): Overview, Definition, and Architecture\nFIGURE 4. End-to-end MLOps architecture and workflow with functional components and roles.\n(A) MLOps product initiation. (1) The business stake-\nholder (R1) analyzes the business and identifies a potential\nbusiness problem that can be solved using ML. (2) The\nsolution architect (R2) defines the architecture design for the\noverall ML system, and decides on the technologies to be\nused after a thorough evaluation. (3) The data scientist (R3)\nderives an ML problem—such as whether regression or clas-\nsification should be used—from the business goal. (4) The\ndata engineer (R4) and the data scientist (R3) work together\nto understand which data is required to solve the problem.\n(5) Once the answers are clarified, the data engineer (R4) and\ndata scientist (R3) collaborate to locate the raw data sources\nfor the initial data analysis. They check the distribution, and\n\nMLOps platform. Another key responsibility associated with the port -\nfolio is to deploy the developed MLOps platform for training, educa -\ntional, and operational support. \nSoftware Engineer : The Software Engineer guides the DevOps En -\ngineer during the development of MLOps platform. The Software Engi -\nneer provides guidelines to successfully scale ML operations for the \nplatform being developed. \nTable 8 summarises the required expertise of ML actors and groups \nthem under ML0 as the first set of requirements. \nTable 7 \nRequirements on AM process operations – AM6.  \nRQ#AM6 Process \nOperations \nProcess \nSuboperations \nRequirements \nA Pre- \nProcessing \nPart Part level requirements include \ncreating the digital design, \nconverting it into AM ready \nformat, setting up any substrate \nmaterial ( Gibson et al., 2015b ) \nSystem System level requirements include \nsetup, calibration, validation \ncheck, and steps specific to the \nsystem model or manufacturer ( \nGibson et al., 2015b )\n\n• Operations Engineers realize the monitoring and continuous integration and delivery\nof the whole MLOps workﬂow.\nFigure 2. Common actors in MLOps and their responsibilities throughout the workﬂow.\n4.1. Project Requirement Engineering\nAs the overall goal of a project is domain-speciﬁc, subject matters (e.g., domain experts)\nand data scientists must gather, engineer, and evaluate all necessary requirements for a\nsuccessful implementation. One major task of the data scientist is to help the domain expert\nin framing the problem, such that it is feasible for being solved by ML technology [30].\nAs MLOps projects advocate for cross-expertise collaboration, engineering-speciﬁcobscu-\nrities originating at this point have to be clariﬁed with the respective actors. In extreme\ncases, re-evaluating acquired concepts may be required, and implementing ﬁne-grained\ndiscussions about potential uncertainties throughout the whole project becomes extremely\n\nengineered product [32], [α , γ].\nR6 DevOps Engineer . The DevOps engineer bridges\nthe gap between development and operations and ensures\nproper CI/CD automation, ML workflow orchestra-\ntion, model deployment to production, and monitoring\n[7], [22], [25], [51], [α , β, γ, ε, ζ, η, θ].\nR7 ML Engineer/MLOps Engineer . The ML engineer\nor MLOps engineer combines aspects of several roles and\nthus has cross-domain knowledge. This role incorporates\nskills from data scientists, data engineers, software engineers,\nDevOps engineers, and backend engineers (see Figure 3).\nThis cross-domain role builds up and operates the ML infras-\ntructure, manages the automated ML workflow pipelines\nFIGURE 3. Roles and their intersections contributing to the MLOps\nparadigm.\nand model deployment to production, and monitors both the\nmodel and the ML infrastructure [7], [24], [25], [32], [α , β,\nγ, δ, ε, ζ, η, θ].\nV. ARCHITECTURE AND WORKFLOW\nOn the basis of the identified principles, components, and\n\nComputers in Industry 154 (2024) 104037\n5\n3.2. Analysis of requirements \nIn order to analyse the requirements, the needs of AM and ML sub -\ndomains are represented in terms of the required roles, modules, ac -\ntivities, and interactions for an MLOps platform. These terms are \ndescribed below, and their specific instances are explained which are \nreferred to throughout the paper. \nRoles : Roles represent personnel with skills and experience in one or \nmore of the subdomains from AM and ML. We use AM Actors and ML \nActors to represent roles of requirements. Roles can be cross-disciplinary \nin nature. \nModules : Modules represent systems that provide functionalities \nfrom specific subdomains of AM and ML. On an abstract level, a module \ncan refer to either a hardware or software system. A module can consist \nof several submodules. We use AM Systems and ML Systems to represent \nmodules of requirements. \nActivities : Activities represent actions from roles to develop and use\n\nsystem. \n6.1. Actor-actor (or human-human) interactions \nThe actor-actor interactions start right from the beginning and later \ngo hand in hand to enable continuous development of the MLOps once \nthe platform has been deployed. Fig. 8 represents all possible in -\nteractions of actors against specific roles identified earlier. The AM to \nML interactions are primarily concerned with the as-is conditions of the \nAM system and requirements (or expectations) at the beginning. Later, \nthe AM actors keep the ML side apprise of the state of deployed models \nor any bugs leading to incorrect predictions. Based on the identified AM \nrequirements, the ML side conveys the hardware and software re -\nquirements needed for interface deployment on the industrial AM \nprinter at the beginning. Once the instance of platform is populated with \nAM modules, the ML to AM interactions turn into validation, \nTable 11 \nRequired ML models for major AM tasks. Some representative examples for each\n\nevaluation [7], [24], [α , ζ].\nR3 Data Scientist (similar roles: ML Specialist,\nML Developer). The data scientist translates the business\nproblem into an ML problem and takes care of the model\nengineering, including the selection of the best-performing\nalgorithm and hyperparameters [7], [25], [32], [33], [α , β, γ,\nδ, ε, ζ, η, θ].\nR4 Data Engineer (similar role: DataOps Engineer).\nThe data engineer builds up and manages data and fea-\nture engineering pipelines. Moreover, this role ensures\nproper data ingestion to the databases of the feature store\nsystem [25], [26], [32], [α , β, γ, δ, ε, ζ, η, θ].\nR5 Software Engineer . The software engineer applies\nsoftware design patterns, widely accepted coding guidelines,\nand best practices to turn the raw ML problem into a well-\nengineered product [32], [α , γ].\nR6 DevOps Engineer . The DevOps engineer bridges\nthe gap between development and operations and ensures\nproper CI/CD automation, ML workflow orchestra-\n\nD. Kreuzberger et al.: Machine Learning Operations (MLOps): Overview, Definition, and Architecture\nTABLE 2. List of interview partners.\ntechnical components of which they consist. An overview of\nthe identified tools is depicted in Table 1.\nC. INTERVIEW STUDY\nTo answer the research questions with insights from practice,\nwe conduct semi-structured expert interviews according to\nMyers and Newman [18]. One major aspect in the research\ndesign of expert interviews is choosing an appropriate sample\nsize [20]. We apply a theoretical sampling approach [21],\nwhich allows us to choose experienced interview partners to\nobtain high-quality data. Such data can provide meaningful\ninsights with a limited number of interviews. To get an ade-\nquate sample group and reliable insights, we use LinkedIn—a\nsocial network for professionals—to identify experienced\nML professionals with profound MLOps knowledge on a\nglobal level. To gain insights from various perspectives,\n\nis aimed at supporting AM process phase, the AM operations can be \ncategorized into pre-processing, processing, and post-processing. The \nrespective requirements are listed in the Table 7 . \n5. Requirements for machine learning \nThis section describes in detail the technical requirements for ML to \nsupport the MLOps for industrial applications of AM. These re -\nquirements are decomposed into actors, data & model pipeline devel -\nopment, system development, and critical ML operations. The \nrequirements related to the interfaces are described separately in Sec -\ntion 6 . \n5.1. ML actors \nML actors refer to the roles identified earlier. As can be seen, various \nexperts must be involved in the development process. Fig. 6 identifies \nthe key ML roles, describes their mandates, and highlights the in -\nteractions among these actors. \nML Owner : The ML Owner translates AM needs into actions for ML \nroles. The ML Owner is also responsible for conveying project level\n\nmodel the following items: (a) AI Model Goal \nSetting; (b) Data Pipeline Management; (c) Feature \nPreparation Pipeline; (d) Train Pipeline Management; \n(e) Model Quality, Performance and Model \nManagement; (f) Model Error Analysis; (g) Model \nFairness & Trust; (h) Model Transparency. \nThe maturity models identified in this SLR \nindirectly allow the level of improvement in the \nactivities of developing machine learning models to \nbe assessed. However, it is observed that aspects \nrelated to MLOps are not directly assessed. \nTherefore, it appears that this finding is an \nopportunity for improvement by developing research \nfor this purpose.\n \n5.4 RQ3 – What Roles and \nResponsibilities Are Identified in \nthe Activities of Operationalizing \nMachine Learning Models? \nThis RQ was drawn up with the purpose of knowing \nthe roles involved in docu mented MLOps processes, \nthus seeking to consolidate the professional profiles\n\nlevels for each assessed capability: (1) initial, (2) repeatable, (3) defined, (4) managed, and (5)\noptimizing.\n3.8. Roles and responsibilities identified in ML model operationalization activities\nDespite some differences in the detail of roles, the reviews examined recognize the need to involve\nprofessionals from various fields - software development, data engineering, machine learning, subject\nmatter experts, and management - for the successful operationalization of machine learning models.\nClose collaboration and communication between these roles is critical for the implementation of MLOps\npractices in organizations.\nThe reviews identify the following key roles and responsibilities in ML model operationalization\nactivities:\n• Data scientists/ML scientists, who are responsible for developing, training, and experimenting\nwith ML models.\n• Data engineers/data providers, who are responsible for extracting, processing, transforming, and\nensuring the quality of data for training models.\n\nteractions among these actors. \nML Owner : The ML Owner translates AM needs into actions for ML \nroles. The ML Owner is also responsible for conveying project level \nneeds to the AM side. In addition to project level decisions, the ML \nOwner is responsible for making the necessary tools, materials, and re -\nsources available to all ML actors. \nML Architect : The ML Architect translates the technical requirement \nof handling AM data representation and supporting predictions on AM \ntasks into modules and engines with the relevant functionalities. The ML \nArchitect also ensures that the ML operations can address the scale of \nAM needs. Depending on the existing state of AM system(s), the ML \nArchitect is responsible for conveying the needs of ML. \nData Scientist : The primary role of the Data Scientist is to support \nthe development of data engines that can contain relevant pipelines of \nprocessing and feature engineering. The Data Scientist also assists the\n\ninformation. \nMachine Learning Operations (MLOps) is a paradigm used to deploy \nand manage ML models at scale. MLOps refer to the set of practices \nrecommended to develop, deploy, monitor, govern, and iterate ML \nmodels (Kreuzberger et al., 2022). An MLOps platform systematically \nprovides these functionalities in an integrated environment. While the \nML practices for production and operation can help manage ML solu -\ntions of AM, no guidelines exist to integrate the two sides for such a \nplatform. Moreover, no work has explored systems-level perspective for \nmanaging ML models developed for AM processes. In this work, we \nidentify fundamental roles, processes, systems, operations, and in -\nterfaces as functional components leading to practices that can be fol -\nlowed to develop an MLOps platform for generic AM process needs. \nSpecifically, this work contributes to:  \n1. Connecting the status of ML-driven AM research and applications to\n\nDanylo O. Hanchuk et al. CEUR Workshop Proceedings 329–337\n• Managers, leadership, and business stakeholders, who define requirements for models regarding\ntheir deployment, make decisions, and support the MLOps strategy.\n• Domain experts, who provide domain knowledge and participate in data labeling in specific\ndomains.\nSome reviews also mention additional roles, such as computational scientists/engineers, ML scien-\ntists/engineers, provenance specialists, application developers, and deployment leads, who have specific\nresponsibilities in the MLOps process.\n3.9. Challenges encountered when deploying ML models in production\nenvironments\nThe reviews demonstrate that deploying machine learning models in production environments is\nassociated with a number of challenges, such as managing the model lifecycle, ensuring scalability\nand performance, monitoring and maintaining models in real-world conditions. Addressing these\n\nMachine Learning Models? \nThis RQ was drawn up with the purpose of knowing \nthe roles involved in docu mented MLOps processes, \nthus seeking to consolidate the professional profiles \nMLOps: Practices, Maturity Models, Roles, Tools, and Challenges – A Systematic Literature Review\n315\n\nHigh level architecture\nData Engineering\nModel Engineering\nSupporting activities\nVersioning\nInfrastructure\nTools\nAutomation\nOperations\nData \ncollection\nData \nanalysis\nData \npreparation\nModel \nbuilding\nModel \ntraining\nModel \nevaluation\nModel \nselection\nModel \npackaging\nModel \ndeployment\nMonitoring\nCI/CD \ntesting\nFigure 2: MLOps activities.\nmonitoring for ML are run to ensure quality of\nthe deployed system.\nModel Deployment: The production-ready ML\nmodels are deployed as part of the production\nsystem (Rahman and Kandogan, 2022).\nMonitoring: The performance (quality) of the\nML models is continuously monitored in order\nto determine whether a manual or automated\nintervention is necessary (Rahman and Kando-\ngan, 2022). Although ML methods are highly\nappreciated in Industry 4.0 settings, according\nto our experience, the application in production\nsettings is sometimes a bit conservative, i.e.,\nautomatically adjusting an existing or deploy-\ning a new version of a working ML model is\n\n(the Ops) could team up. MLOps adds to the group the data scientists, which minister datasets and \nconstruct AI models that dissect them. It likewise incorporates ML engineers, who run those datasets \nthrough the models in focused, automated ways. When  a ML model has been assembled, it should be \ncoordinated with real-world data and the business application or front-end services. The entire \napplication or parts thereof should be deployed without disrupting the assistance. Sending can be very \ndifficult if the ML components aren't treated as a vital piece of the application or production pipeline \n[11]. The proposed model supports the model creati on with automated machine learning and access \nincredible feature engineering, algorithm selecti on and hyper parameter-sweeping capabilities. This \nmodel increases group proficiency with shared  datasets, notebooks, models and customizable \ndashboards that track all parts of the machine learning measure.\n\ndelivering, and deploying models for hosting machine \nlearning solutions. Their study details the functioning \nof the platform in activities performed by three \ndistinct profiles: (1) a data scientist, who is \nresponsible for creating and training the models; (2) a \nmanager, in charge of evaluating the models before \nthey are made available; (3) an end application \ndeveloper, who is responsible for developing \napplications that the models produced will run. \nThus, it is possible to distinguish some common \nprofiles that can be used to identify the roles and \nresponsibilities addressed in the articles analyzed in \nthis study, namely: (1) a domain specialist; (2) a data \nscientist; (3) a manager; (4) a data engineer; and (5) a \ndeveloper. \n5.5 RQ4 - What Tools Are Used in the \nActivities of Operationalizing \nMachine Learning Models? \nThe purpose of this RQ is to provide information \nabout the tools and solutions registered in the \nacademy for application in the development and\n\nwith ML models.\n• Data engineers/data providers, who are responsible for extracting, processing, transforming, and\nensuring the quality of data for training models.\n• DevOps engineers, ML/MLOps engineers, and software engineers, who are responsible for\noperationalizing models, automating deployment processes, creating pipelines, and managing\nenvironments.\n333\n\nhave a product-focused perspective when designing ML\nproducts [γ ]. A great number of skills and individual roles\nare required for MLOps (β ). As our identified sources point\nout, there is a lack of highly skilled experts for these roles—\nespecially with regard to architects, data engineers, ML engi-\nneers, and DevOps engineers [26], [32], [38], [α , ε]. This is\nrelated to the necessary education of future professionals—\nas MLOps is typically not part of data science education [33]\n[γ]. Posoldova [6] further stresses this aspect by remarking\nthat students should not only learn about model creation, but\nmust also learn about technologies and components necessary\nto build functional ML products.\nData scientists alone cannot achieve the goals of MLOps. A\nmulti-disciplinary team is required [25], thus MLOps needs to\nbe a group process [α ]. This is often hindered because teams\nwork in silos rather than in cooperative setups [α ]. Addition-\n\namong the workﬂow of implementing the solution. The task of deciding which stage should\nbe fulﬁlledby which actor is not so trivial as designing an ideal MLOps workﬂow; multiple\niterations are required. For organizations that are freshly adopting MLOps, there is a need\nto clarify the involvement of actors in the different stages. Reasoning from this, ﬁrst,a brief\n\ntheir components are highlighted in Fig. 7. \nInterface Layer: The interface layer is needed during the develop -\nment and deployment of the system. This can be represented by a user \ninterface and a data/decision interface. The user interface provides \nTable 8 \nRequired expertise of ML actors – ML0.  \nRQ#ML0 ML Actor Requirements \nA ML Owner Leadership, business goals, resource management \nB ML Architect Expertise in ML project design and management \nC Data Scientist Expertise in data science \nD ML Engineer Expertise in ML development \nE DevOps Engineer Expertise in support of MLOps \nF Software Engineer Expertise in software engineering  \nTable 9 \nRequired libraries to process AM data representations in support of AM tasks – \nML1.  \nRQ#ML1 Data \nRepresentation \nLibrary Processing Function \nA Tabular NumPy To process AM data in \nmatrices, vectors, and multi \ndimensional arrays from \ntabular representations ( \nHarris et al., 2020) \nMatplotlib To plot AM data (specifically\n\nThe MLOps process typically involves:\n2.2.1. Data Engineering: Crucial step in the machine learning \npipeline, involves collecting vast amounts of data from diverse \nsources, such as sensors, databases, and web logs. The collected \ndata is often raw, incomplete, or inconsistent, requiring cleaning \nprocesses to remove errors, outliers, and duplicate information. \nData preprocessing, another essential task, transforms the cleaned \ndata into a suitable format for machine learning algorithms. This \nprocess may include feature engineering, data normalization, \nand binning. By collecting, cleaning, and preprocessing data \neffectively, data engineers ensure the high quality and reliability \nof inputs for machine learning models, leading to more accurate \nand robust predictions.\n2.2.2. Model Training: Developing and training machine \nlearning (ML) models involves employing diverse algorithms \ntailored to specific tasks. These algorithms include supervised\n\nneeds. Fig. 3 presents an activity diagram of both sides. It systematically \ninterfaces the components of AM and ML leading to the development, \ndeployment, and maintenance of the platform for industrial AM systems. \nThe roles represent expertise from the domains identified earlier. \nOne person may have multiple expertise covering several of the identi -\nfied roles. On the ML side, we identify ML Owner (MLO), ML Architect \n(MLA), Data Scientist (DS), Software Engineer (SE), Development and \nOperations Engineer (DevOpsE), and ML Engineer (MLE) as the required \nexpertise. These roles support project setup, ML process and system \ndevelopment, ML operations and the developed MLOps platform. Their \ndescriptions and interactions among each other are discussed in Section \n5 , which focuses on ML requirements. On the AM side, we identify AM \nOwner (AMO), AM Manager (AMM), Process Engineer (PE), Materials \nEngineer (ME), AM Researcher (AMR), AM Scientist (AMS) and AM\n\ndone throughout the text. \nThe description of each role is as follows: \nAM Owner : The AM Owner identifies the business needs of AM \nsuitable for ML applications in terms of their scale and nature. AM \nOwner is also responsible for making the necessary resources available \nto AM and ML actors per the project ’ s requirements. \nAM Manager : The AM Manager provides technical supervision to \nAM activities of process and system development. AM Manager also \nconveys the scope of AM needs for ML solutions and acts as a bridge \nbetween the AM Owner and ML actors to translate ML needs into rele -\nvant actions. \nProcess Engineer : The Process Engineer brings expertise in one or \nmore of the seven standard AM technologies for specific applications \nand materials. Process Engineer is tasked with developing AM process to \na level that can support experimentation to generate ML worthy AM \ndata. \nMaterials Engineer : The Materials Engineer supports the Process\n\nlearning solutions in an industrial environment.\n3.2. MLOps workflow stages\nDespite different levels of detail and grouping, the reviews demonstrate overall consistency regarding\nthe main stages of the MLOps workflow. These stages cover the entire lifecycle of machine learning\nmodels, from data collection and processing to deployment, monitoring, and retraining of models.\nDifferences in the presentation of stages reflect different approaches to structuring and describing the\nMLOps workflow.\nThe main stages of the MLOps workflow identified in the reviews include:\n• Data collection and processing: collecting, cleaning, transforming, and enriching data for training\nmodels.\n• Model development and training: selecting algorithms, developing model architecture, training\nand validating models.\n• Model evaluation and testing: evaluating model performance on test data, conducting reliability,\nsecurity, and compliance tests.\n\nFigure 1: Graphical representation of MLOps, an end-to-end Machine Learning life-cycle management. It is an Iterative-\nIncremental Process mainly based on 3 stages: Data, Machine Learning (ML) and DevOps. The latter has two principles named\nContinuous Integration (CI) and Continuous Delivery (CD). MLOps adds other two practices named Continuous Monitoring\n(CM) and Continuous Training (CT). This work is focused on the Machine Learning development stage to train and validate\nthe models with MLOps practices and Continual Learning methodologies.\nhave been pre-trained on different user demographics,\nmight not work correctly according to quality metrics\n(locality).\nMLOps try to establish effective practices and pro-\ncesses around designing, building, and deploying ML\nmodels into production. Currently, MLOps tools range\nfrom using a machine-learning platform to implement-\ning an on-premise solution by composing open-source\nlibraries.\nMLOps platforms should support languages, frame-\n\nDanylo O. Hanchuk et al. CEUR Workshop Proceedings 329–337\n2. The main stages of the MLOps lifecycle include data collection and processing, model development\nand training, deployment, monitoring, and retraining.\n3. Various frameworks and architectures are used to implement MLOps, such as open source\nplatforms (MLflow, Kubeflow, TensorFlow Extended), cloud computing platforms (AWS, Google\nCloud, Azure), containerization (Docker), and container orchestration (Kubernetes).\n4. MLOps tools provide a wide range of features to support the machine learning model lifecycle,\nwith a focus on automation, experiment tracking, versioning, monitoring, and model deployment.\n5. The most common methods of deploying machine learning models in production environments\nare the use of container technologies, cloud platforms and services, and deployment of models as\nweb services.\n6. Adapted software development maturity models, such as CMM, can be used to assess the maturity\n\nD. Kreuzberger et al.: Machine Learning Operations (MLOps): Overview, Definition, and Architecture\nTo answer that question, we conduct a mixed-method\nresearch endeavor to (a) identify important principles of\nMLOps, (b) carve out functional core components, (c) high-\nlight the roles necessary to successfully implement MLOps,\nand (d) derive a general architecture for ML systems design.\nIn combination, these insights result in a definition of\nMLOps, which contributes to a common understanding of the\nterm and related concepts.\nTherefore, we hope to positively impact academic and\npractical discussions by providing clear guidelines for pro-\nfessionals and researchers alike with precise responsibilities.\nThese insights can assist in allowing more proofs of concept\nto make it into production by having fewer errors in the\nsystem’s design and, finally, enabling more robust predictions\nin real-world environments.\nThe remainder of this article is structured as follows.\n\ninvolves integrating various disciplines such as data engineering, \nmodel training, continuous integration and continuous delivery \n(CI/CD), and monitoring into a cohesive framework [7], [8]. \nKey components of MLOps include data versioning to ensure \nconsistent and reliable data for model training, automated \nmodel training to streamline the model development process, \nmodel validation to assess model performance and identify \npotential issues, deployment to seamlessly move models from \ndevelopment to production environments, and monitoring to \ntrack model behavior and identify any performance degradation \nor data drift over time [9]. By adopting MLOps, organizations \ncan ensure the accuracy, reliability, and performance of their \nmachine learning models throughout their lifecycle.\nThe MLOps process typically involves:\n2.2.1. Data Engineering: Crucial step in the machine learning \npipeline, involves collecting vast amounts of data from diverse\n\nI. I NTRODUCTION\nMachine Learning Operations (MLOps) [1], derived from\nDevOps, is a collection of practices and techniques to unify the\ndevelopment, deployment, and operation of machine learning\n(ML) systems, aiming to streamline the process of shifting ML\nsolutions to production. MLOps covers multiple phases of an\nML project, such as data engineering, model training and eval-\nuation, model validation, model deployment and serving, and\nmodel monitoring. An MLOps pipeline brings tool automation\ninto MLOps [2] by multiple pipeline components responsible\nfor different MLOps phases. As the production environment\ninevitably changes or cannot be covered comprehensively,\nit signiﬁcantly affects ML models’ performance as they are\nsensitive to dynamic data – models which have passed initial\nvalidation tests may not perform as expected in the long\nrun. For example, a recommender system may fail to provide\naccurate recommendations due to the new items it has not\n\nWorld Journal of Advanced Engineering Technology and Sciences, 2025, 14(01), 241-253 \n243 \n2.2. MLOps \n \nFigure 2 MLOps \nMLOps is a term used to refer to the integration of machine learning, development operations/software operations, and \ndata handling engineering to support machine learning models in developing and operating more efficiently. It \nhighlights automation, code repro ducibility, and production infrastructure integration and delivery models. Unlike \nconventional DevOps for regular applications, MLOps considers the ML systems and their peculiarities, including the \ncapability to work with dynamic data, the need to retrain the models when some shifts in data are detected, and the \nversioning and governing of models. Platforms like Kubeflow and MLflow used in MLOps ensure that everyone involved \nin creating an ML application can easily collaborate to deliver quality work. \n2.3. Interdependence of Data Engineering and MLOps\n\ndeployed to a production environment, where it is used to\nmake real-time ad targeting decisions. In this case, Apache\nAirflow is used to automate the entire process, including\nscheduling, monitoring, and re-running failed tasks.\nVI. CONCEPTUALIZATON\nWith the findings at hand, we conceptualize the literature\nand interviews. It becomes obvious that the term MLOps is\npositioned at the intersection of machine learning, software\nengineering, DevOps, and data engineering (see Figure 5).\nWe define MLOps as follows:\nMLOps (Machine Learning Operations) is a paradigm,\nincluding aspects like best practices, sets of concepts, as\nwell as a development culture when it comes to the end-to-\nend conceptualization, implementation, monitoring, deploy-\nment, and scalability of machine learning products. Most\nof all, it is an engineering practice that leverages three\ncontributing disciplines: machine learning, software engi-\nneering (especially DevOps), and data engineering. MLOps\n\nD. Kreuzberger et al.: Machine Learning Operations (MLOps): Overview, Definition, and Architecture\ncode [23], [24], [36], [37], [38] [α , β, γ, ζ, θ]. Exam-\nples include Bitbucket [39], [ζ], GitLab [24], [39], [ζ],\nGitHub [37], [ζ, η], and Gitea [23].\nC3 Workflow Orchestration Component (P2, P3, P6).\nThe workflow orchestration component offers task orchestra-\ntion of an ML workflow via directed acyclic graphs (DAGs).\nThese graphs represent execution order and artifact usage of\nsingle steps of the workflow. A workflow uses for example\npackaged code artifacts in the respective process step, like\nextracting data, training, inference or embedding of a model\nbinary into an application [6], [7], [23], [26], [31], [α, β, γ, δ,\nε, ζ, η]. Examples include Apache Airflow [α , ζ], Kubeflow\nPipelines [ζ], Watson Studio Pipelines [γ ], Luigi [ζ], AWS\nSageMaker Pipelines [β], and Azure Pipelines [ε]. In theory,\nCI/CD tools could also be used to schedule the triggering of\n\nConference on Operational Machine Learning (OpML 19) (pp. 9-11).\n[29] MLOps: Continuous Delivery for Machine Learning on AWS.\nhttps://d1.awsstatic.com/whitepapers/mlops-continuous-delivery-\nmachine-learning-on-aws.pdf\n[30] MLOps Foundations. https://www.rackspace.com/sites/default/ﬁles/white-\npapers/MLOps Foundations Data Sheet.pdf\n[31] MLOps. https://perspecta.com/sites/default/ﬁles/2021-\n02/MLOps%20Whitepaper022321.pdf\n[32] Machine Learning Operations (MLOps) A Meetup.\nhttps://higherlogicdownload.s3.amazonaws.com/IMWUC/UploadedImages\n/12f13a33-bced-4573-8dd7-be58d519757c/MLOps.pdf\n[33] Inroducing MLOps. https://itlligenze.com/uploads/5/137039/ﬁles/oreilly-\nml-ops.pdf\n[34] Eight must-haves for MLOps success and when to use them.\nhttps://info.algorithmia.com/hubfs/2020/Webinars/Forrester/Eight-must-\nhaves-slides-ﬁnal.pdf?hsLang=en-u\n[35] MLOps: Machine Learning Operationalization.\nhttps://cdn.activestate.com/wp-content/uploads/2018/10/webinar-slides-\nmlops.pdf\n\nis subdivided into data management and modeling.\nEach stage consists of a cycle with tasks that connect\ncycles to each other. These models do not address the\n1. Manual\nstep\n2. Autom./\nMLOps\nHigh \nlevel\narchitecture\nDeployed\nmodel\n3. Model\napplication\nMonitoring Feedback\nBusiness \nproblem/ \nidea\nFigure 1: High level structure of the MLOps cycle.\nspecific activities of MLOps, but make it clear that\nML is added to DevOps principles. Moreover, they\ndo not include cross-cutting activities. Therefore, we\npropose a new life-cycle. Our life-cycle model de-\nfines the phases (Fig. 2): Data Engineering, Model\nEngineering, and Operations, each consisting of mul-\ntiple activities; they are complemented by supporting\nactivities.\nData Engineering\nData Collection: This provides a basis for ma-\nchine learning. The collected data can include\nmachine data, product information, customer\ndata, behavioral data, etc. The relevant data\nneeds to be determined based on the use case\n\n[5] Paleyes, A., Urma, R., & Lawrence, N.D. 2020. Challenges in Deploying Machine\nLearning: a Survey of Case Studies. ArXiv, abs/2011.09926.\n[6] Renggli, C., Rimanic, L., Gurel, N.M., Karlavs, B., Wu, W., & Zhang, C. 2021. A\nData Quality-Driven View of MLOps. ArXiv, abs/2102.07750.\n[7] Ruf, P., Madan, M., Reich, C., & Ould-Abdeslam, D. 2021. Demystifying MLOps\nand Presenting a Recipe for the Selection of Open-Source Tools. Applied Sciences.\n[8] Granlund, T., Kopponen, A., Stirbu, V., Myllyaho, L., & Mikkonen, T. 2021. MLOps\nChallenges in Multi-Organization Setup: Experiences from Two Real-World Cases.\n2021 IEEE/ACM 1st Workshop on AI Engineering - Software Engineering for AI\n(WAIN), 82-88.\n[9] Tamburri, D.A. 2020. Sustainable MLOps: Trends and Challenges. 2020 22nd\nInternational Symposium on Symbolic and Numeric Algorithms for Scientific\nComputing (SYNASC), 17-23.\n[10] Zhou, Y., Yu, Y., & Ding, B. 2020. Towards MLOps: A Case Study of ML Pipeline\n\nexplainability and ethical AI practices in the \nMLOps lifecycle. \nBuilds trust and regulatory compliance while \nensuring transparency in AI-driven systems. \nUnified DataOps \nand MLOps \nPlatforms \nDevelopment of platforms combining DataOps \nand MLOps for seamless data -to-deployment \nworkflows. \nStreamlines pipeline management and fosters \nbetter collaboration between data and ML teams. \nHybrid Multi -\nCloud Strategies \nLeveraging multiple cloud environments for \npipeline resilience and cost optimization. \nEnhances flexibility, fault tolerance, and reduces \ndependency on a single cloud provider. \n7. Conclusion \nData engineering and MLOps are both fundamental for an essential step in building and operating highly scalable and \nreliable ML pipelines. These two areas intertwine because they are becoming increasingly critical, as strategic \nmanagement for various organizations requires more data management and analysis. The use of data engineering and\n\n[4] Mäkinen S, Skogström H, Laaksonen E and Mikkonen T 2021 Who Needs MLOps: What Data \nScientists Seek to Accomplish and How Can MLOps Help? IEEE/ACM 1st Workshop on AI \nEngineering-Software Engineering for AI (WAIN) (Madrid, Spain) pp 109-112. \n[5] Gupta M, Chowdary M N, Bussa S and Chowdary C K 2021 Deploying Hadoop Architecture \nUsing Ansible and Terraform 5th IEEE International Conference on Information Systems and \nComputer Networks (ISCON) (Mathura, India) pp 1-6. \n[6] Gupta M, Sanjana K, Akhilesh K and Chowdary M N 2021 Deployment of Multi-Tier Application \non Cloud and Continuous Monitoring using Kubernetes 5th IEEE International Conference \non Electrical, Electronics, Communication, Computer Technologies and Optimization \nTechniques (ICEECCOT) (Mysuru, India) pp 602-607. \n[7] Tamburri D A 2020 Sustainable MLOps: Trends and challenges 22nd IEEE International \nSymposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC) \n(Timisoara, Romania) pp 17-23.\n\nMLOps. The first category includes CI/CD tool classes,\nCode Repository, Container Orchestrator. The second cate-\ngory includes primarily the following: Model Orchestrator,\nModel Repository and Feature Store. A summary of MLOps\ntool classes, together with the most popular solutions, is pre-\nsented in Fig. 6. It is also the MLOps reference architecture,\nwhich can be referred to when building dedicated solutions.\nWe also defined the model production process in the MLOps\nenvironment. However, market standards for some steps, such\nas model monitoring, have not yet been developed. Finally,\nthe absence of publications detailing metrics for evaluating\nMLOps implementations was unexpected. Perhaps this is\ndue to the immaturity of this area and measurable indicators\nwill be developed to assess the quality of the implemented\nMLOps environment and compare these indicators between\ncompanies.\nIn the future, we plan to work in three areas. First, we want\n\nHowever, there exists no guidance or framework to systematically adapt \nthese solutions in industry. Moreover, the knowledge gap between AM \nand ML hinders smooth transition of these solutions from ML environ -\nments to AM machines. There is a lack of systematic approaches to guide \nthis multi-disciplinary process involving several domains. Research into \nAM informatics is mostly limited to data and information management. \nWith more and more data-driven models developed for AM challenges, a \nsystems approach is needed to transition these solutions from academia \nand research to operations and industry. \nWe identified the key requirements for developing an MLOps plat -\nform that can be tailored to AM process needs and support ML models. A \nproject level activity diagram has been presented and used to identify \nthe requirements. The fundamental requirements were divided into \nroles, processes, systems, operations, and interfaces. The requirements\n\nsocial network for professionals—to identify experienced\nML professionals with profound MLOps knowledge on a\nglobal level. To gain insights from various perspectives,\nwe choose interview partners from different organizations\nand industries, different countries, and nationalities, as well\nas different genders. Interviews are conducted until no new\ncategories and concepts emerge in the analysis of the data.\nAccording to Glaser and Strauss [21], this stage is called\n‘‘theoretical saturation.’’ In total, we conduct eight interviews\nwith experts (pseudonymized with α - θ), whose details are\ndepicted in Table 2. All interviews are conducted between\nJune and August 2021.\nWith regard to the interview design, we prepare a semi-\nstructured guide with several questions, documented as an\ninterview script [18]. During the interviews, ‘‘soft ladder-\ning’’ is used with ‘‘how’’ and ‘‘why’’ questions to probe\nthe interviewees’ means-end chain [19]. This methodical\n\nAlthough MLOps is a relatively new field, important work and progress have\nbeen made. While some researchers focus on properly defining MLOps and\nproviding an overview of its concepts and best practices [16, 30, 32], others\ninvestigate the challenges faced in ML systems operationalization. Tamburri\nhighlights in [31] the limited attention given to MLOps within academia and\nthe lack of data engineering skills in academia as well as in industry. Reng-\ngli et al. [25] and Granlund et al. [7] extend on this and show that one\nmassive problem in MLOps is data management. This is mostly due to the\nstrong dependency between model performance and data quality. The cloud\narchitecture center of Google proposes in [2] how to automate ML workflows.\nThey classify MLOps into three different levels: MLOps Level 0 that refers\nto classical ML pipelines with no CI, no CD and manually operated work-\nflows totally disconnected from the ML system, MLOps Level 1 in which\n\nAll of the previous definitions do not take into account what\nhas been made on the data, for this reason, it has been necessary\nto define another set of practices that are focused on data-driven\napplications, namely MLOps. Multiple entities have been trying\nto provide their vision on what are the most important stages\nand phases of MLOps, notably the most famous is the one from\nGoogle [2]. In the latter, the main focus has been posed on how\nto implement Continuous Integration (CI), Continuous Delivery\n(CD), and Continuous Training (CT) for ML systems. In particular,\nMLOps has been categorized based on the different levels of automa-\ntion from 0 to 2, which respectively stand for Manual Process and\nCI/CD automation. An \"MLOps level 2: CI/CD pipeline automation\"\n1Not available at the time of writing this work\n---\n\nQuestion: You're an expert in machine learning operations (MLOps). \nYou will find below a list that contains 16 Actors who appear in different activities in an MLOps process. \n\nI want you to:\n• Identify dimensions from the provided actors.\n• Cluster actors according to these dimensions.\n• Propose a leading actor for each dimension.\n\nFormat the final output as a structured table with three columns: Dimension, List of Actors, Proposed Leading Actor.\n\nHere is the list of actors:\n- Business Stakeholder\n- Solution Architect\n- Domain Expert\n- Manager\n- Data Scientist\n- Data Engineer\n- Data Steward\n- Scientist\n- ML Engineer / Developer\n- Software Developer\n- Software Engineer\n- Application Developer\n- DevOps Engineer\n- MLOps Engineer\n- Operations Engineer\n- IT Operations / Professional\nAnswer:"
+}

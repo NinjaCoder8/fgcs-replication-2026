@@ -1,0 +1,8 @@
+# reasoning model:
+https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3
+
+# embedding model:
+https://huggingface.co/BAAI/bge-m3
+
+# Note: create a .env file to store the OPENAI_API_KEY
+

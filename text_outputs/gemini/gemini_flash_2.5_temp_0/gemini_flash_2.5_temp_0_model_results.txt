@@ -1,0 +1,9 @@
+| Dimension | List of Actors | Proposed Leading Actor |
+|---|---|---|
+| **Business & Strategy** | Business Stakeholder, Manager, Domain Expert | Business Stakeholder |
+| **Data Management & Governance** | Data Engineer, Data Steward | Data Engineer |
+| **ML Research & Development** | Data Scientist, Scientist | Data Scientist |
+| **ML System Engineering** | ML Engineer / Developer | ML Engineer / Developer |
+| **Software & Application Development** | Software Developer, Software Engineer, Application Developer | Software Engineer |
+| **Operations & Infrastructure** | DevOps Engineer, MLOps Engineer, Operations Engineer, IT Operations / Professional | MLOps Engineer |
+| **Architectural & System Design** | Solution Architect | Solution Architect |

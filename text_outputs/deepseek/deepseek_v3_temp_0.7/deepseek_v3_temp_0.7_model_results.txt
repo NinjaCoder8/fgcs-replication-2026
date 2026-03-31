@@ -1,0 +1,17 @@
+Based on the provided list of 16 actors, I have identified three primary dimensions that represent core functional areas in an MLOps process: **Business & Strategy**, **Data & Science**, and **Engineering & Operations**.
+
+Here is the structured table:
+
+| Dimension | List of Actors | Proposed Leading Actor |
+| :--- | :--- | :--- |
+| **Business & Strategy** | Business Stakeholder, Domain Expert, Manager, Solution Architect | **Solution Architect** |
+| **Data & Science** | Data Scientist, Data Engineer, Data Steward, Scientist, Domain Expert | **Data Scientist** |
+| **Engineering & Operations** | ML Engineer / Developer, Software Developer, Software Engineer, Application Developer, DevOps Engineer, MLOps Engineer, Operations Engineer, IT Operations / Professional | **MLOps Engineer** |
+
+**Rationale for Dimensions and Leading Actors:**
+
+*   **Business & Strategy:** This dimension focuses on defining the problem, ensuring business alignment, and designing the high-level solution. The **Solution Architect** is proposed as the lead because they bridge business needs (from Stakeholders and Domain Experts) with technical feasibility, translating strategy into an architectural blueprint.
+*   **Data & Science:** This dimension covers the entire data lifecycle and the core development of the ML model. The **Data Scientist** is the natural lead here, as they drive the analytical and modeling work, relying on Data Engineers for pipelines and Data Stewards for governance, with input from Domain Experts.
+*   **Engineering & Operations:** This dimension is responsible for building, integrating, deploying, and maintaining the ML system as a reliable production service. The **MLOps Engineer** is proposed as the lead because their role is specifically defined to orchestrate the intersection of ML, software, and DevOps practices, ensuring the system is scalable, automated, and monitorable.
+
+**Note on Domain Expert:** This actor appears in two dimensions, reflecting their dual role in informing both the business context and the scientific/feature engineering aspects of the project.

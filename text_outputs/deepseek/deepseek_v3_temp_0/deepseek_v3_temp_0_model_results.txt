@@ -1,0 +1,15 @@
+Based on the provided list of 16 actors, I have identified three primary dimensions that represent core functional areas in the MLOps lifecycle: **Data & Science**, **Engineering & Development**, and **Governance & Operations**.
+
+Here is the structured table:
+
+| Dimension | List of Actors | Proposed Leading Actor |
+| :--- | :--- | :--- |
+| **Data & Science** | Data Scientist, Scientist, Domain Expert, Data Engineer, Data Steward | **Data Scientist** |
+| **Engineering & Development** | ML Engineer / Developer, Software Developer, Software Engineer, Application Developer, DevOps Engineer, MLOps Engineer | **MLOps Engineer** |
+| **Governance & Operations** | Business Stakeholder, Solution Architect, Manager, Operations Engineer, IT Operations / Professional | **Solution Architect** |
+
+**Rationale for Dimensions and Leadership:**
+
+*   **Data & Science:** This dimension focuses on the generation, understanding, and preparation of data and the creation of the core machine learning model. The **Data Scientist** is proposed as the lead because they sit at the intersection of domain knowledge, data analysis, and model experimentation, driving the core ML innovation.
+*   **Engineering & Development:** This dimension is responsible for building, integrating, deploying, and maintaining the scalable, reliable software system that houses the model. The **MLOps Engineer** is the natural lead, as their role is specifically designed to bridge the gap between data science and production engineering, ensuring CI/CD, automation, and operational best practices for ML systems.
+*   **Governance & Operations:** This dimension ensures the project is aligned with business goals, architectural standards, resource management, and production stability. The **Solution Architect** is proposed as the lead because they are responsible for designing the overarching system that meets business requirements, balances technical constraints, and integrates the work from the other two dimensions into a viable, supportable solution.

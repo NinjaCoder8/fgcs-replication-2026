@@ -1,0 +1,33 @@
+# MLOps Actors Analysis: Dimensions, Clustering, and Leading Actors
+
+## Reasoning
+
+After analyzing the 16 actors based on their **primary focus**, **skill domain**, **organizational role**, and **proximity to technical vs. business concerns**, I identified the following key dimensions:
+
+---
+
+## Structured Table
+
+| **Dimension** | **List of Actors** | **Proposed Leading Actor** |
+|---|---|---|
+| **Business & Strategy** Actors focused on organizational goals, ROI, requirements, and strategic alignment | Business Stakeholder, Manager | Business Stakeholder |
+| **Domain & Data Knowledge** Actors who provide subject-matter expertise, data governance, and scientific insight | Domain Expert, Scientist, Data Steward | Domain Expert |
+| **Data & ML Science** Actors responsible for data preparation, analysis, experimentation, and model development | Data Scientist, Data Engineer | Data Scientist |
+| **Software & Application Development** Actors focused on building, integrating, and delivering software solutions and applications | Solution Architect, Software Developer, Software Engineer, Application Developer | Solution Architect |
+| **ML Engineering & Productionization** Actors responsible for building, packaging, deploying, and maintaining ML models in production | ML Engineer / Developer, MLOps Engineer | MLOps Engineer |
+| **Infrastructure & Operations** Actors responsible for infrastructure, CI/CD pipelines, system reliability, and IT operations | DevOps Engineer, Operations Engineer, IT Operations / Professional | DevOps Engineer |
+
+---
+
+## Summary of Dimensions
+
+```
+1. Business & Strategy        → Business Stakeholder (leads)
+2. Domain & Data Knowledge    → Domain Expert (leads)
+3. Data & ML Science          → Data Scientist (leads)
+4. Software & App Development → Solution Architect (leads)
+5. ML Engineering             → MLOps Engineer (leads)
+6. Infrastructure & Ops       → DevOps Engineer (leads)
+```
+
+> **Key Insight:** The **MLOps Engineer** acts as the central bridge across all dimensions, connecting Business, Science, Engineering, and Operations concerns throughout the ML lifecycle.

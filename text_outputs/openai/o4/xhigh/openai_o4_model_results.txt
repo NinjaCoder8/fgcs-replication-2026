@@ -1,0 +1,39 @@
+Below is one possible way to organize the 16 “actors” into four high-level dimensions that reflect the major concerns and responsibilities in an end-to-end MLOps lifecycle. For each dimension we list the relevant actors and propose one leading actor who typically owns or drives that dimension in most organizations.
+
+Dimension               | List of Actors                                                                 | Proposed Leading Actor  
+----------------------- | ------------------------------------------------------------------------------ | -----------------------  
+1. Business & Strategy  | • Business Stakeholder  
+                         • Manager  
+                         • Domain Expert  
+                         • Solution Architect                                               | Business Stakeholder  
+2. Data & Feature        | • Data Engineer  
+                         • Data Steward  
+                         • Data Scientist  
+                         • Scientist  
+                         • Data Analyst (implied)                                           | Data Engineer  
+3. Model Development     | • ML Engineer / Developer  
+                         • Data Scientist  
+                         • Software Developer (for custom code)  
+                         • Application Developer                                           | ML Engineer / Developer  
+4. Infrastructure & Ops  | • DevOps Engineer  
+                         • MLOps Engineer  
+                         • Operations Engineer  
+                         • IT Operations / Professional                                    | MLOps Engineer  
+
+Explanation of dimensions and leads:
+
+1. Business & Strategy  
+   – Focus: Defining the business problem, requirements, ROI, success criteria and high-level solution architecture.  
+   – Lead: Business Stakeholder drives goals, budget and prioritization.  
+
+2. Data & Feature  
+   – Focus: Data ingestion, cleansing, transformation, cataloging, feature engineering and data governance.  
+   – Lead: Data Engineer owns pipelines, schemas, versioning and quality.  
+
+3. Model Development  
+   – Focus: Algorithm selection, coding/training models, experimentation, hyperparameter tuning and packaging.  
+   – Lead: ML Engineer / Developer coordinates model building, integrates science and software.  
+
+4. Infrastructure & Ops  
+   – Focus: Resource provisioning, CI/CD pipelines, containerization, deployment, scaling, monitoring and maintenance.  
+   – Lead: MLOps Engineer ensures repeatable, automated, secure operations of data and models.

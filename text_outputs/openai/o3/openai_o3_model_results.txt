@@ -1,0 +1,8 @@
+Dimension | List of Actors (clustered) | Proposed Leading Actor
+--------- | -------------------------- | ----------------------
+Business & Domain Leadership | Business Stakeholder, Manager, Domain Expert | Business Stakeholder
+Data Management & Governance | Data Engineer, Data Steward | Data Engineer
+Modeling & Research | Data Scientist, Scientist | Data Scientist
+ML Engineering & Solution Design | ML Engineer / Developer, Solution Architect | ML Engineer / Developer
+Software/Application Development | Software Developer, Software Engineer, Application Developer | Software Engineer
+Operations & Platform (DevOps / MLOps) | DevOps Engineer, MLOps Engineer, Operations Engineer, IT Operations / Professional | MLOps Engineer
